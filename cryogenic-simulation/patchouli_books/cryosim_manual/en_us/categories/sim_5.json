@@ -1,0 +1,6 @@
+{
+    "name": "Mineral Quarry",
+    "description": "After finding $(item)The Midnight$() pocket dimension we started developing our own pocket dimension tech.$(br2)We have now applied it, and created a pocket dimension we call $(item)The Mineral Quarry$().",
+    "icon": "mekanism:oreblock",
+    "sortnum": 5
+}

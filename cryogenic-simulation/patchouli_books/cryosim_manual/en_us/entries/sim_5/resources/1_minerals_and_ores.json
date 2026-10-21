@@ -1,0 +1,27 @@
+{
+    "name": "Minerals and Ores",
+    "icon": "contenttweaker:deep_substrate_ore",
+    "category": "sim_5/resources",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "mekanism:oreblock",
+            "text": "An abundance of $(item)Osmium Ore$() can be found between world height level 24-60"
+        },
+        {
+            "type": "spotlight",
+            "title": "Salt",
+            "item": "mekanism:saltblock",
+            "text": "A modest amount of $(item)Salt$() can be found between world height level 0-60"
+        },
+        {
+            "type": "spotlight",
+            "title": "Deep Substrate Ore",
+            "item": "contenttweaker:deep_substrate_ore",
+            "anchor": "subore",
+            "text": "$(item)Deep Substrate Ore$() can be fond between world height level 0-24.$(br2)We recommend using fortune or silk touch when acquiring this ore.$(br2)Silk touch is probably the most handy option since it can be directly pulverized into the $(item)Fine Kalthrite Coating$()."
+        }
+    ]
+}

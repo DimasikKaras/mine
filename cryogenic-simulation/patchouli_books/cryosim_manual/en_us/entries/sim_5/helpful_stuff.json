@@ -1,0 +1,40 @@
+{
+    "name": "Quality of Life",
+    "icon": "mekanism:speedupgrade",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "priority": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:mekanism_speedupgrade",
+            "recipe2": "crafttweaker:mekanism_energyupgrade",
+            "text": "After finishing the first 2 chapters of this Simulation. You can create the $(item)Glitch Infused$() armor set.$(br2)This will bestow the wearer with creative flight, among other benefits."
+        },
+        {
+            "type": "text",
+            "title": "Mekanism Upgrades",
+            "text": "Midway into this simulation you will unlock $(item)Mekanism$() machines. They are slow and powerhungry. Unless you give them a ton of upgrades that is.$(br2)Most $(item)Mekanism$() machines can fit 8 $(item)Speed Upgrades$() and 8 $(item)Energy Upgrades$().$(br2)Some machines get a massive cost multiplier for each speedupgrade. So tinker around with what fit each machine the best."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:mekanism_induction_casing",
+            "anchor": "inductioncasing",
+            "title": "Energy Storage",
+            "text": "$(item)Induction Casing$() is the foundation to making the $(item)Induction Matrix$() multiblock. The required materials unlock late in this simulation.$(br2)We recommend this multiblock for your lategame energy-storage needs."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:mekanism_adv_induction_provider",
+            "title": "Energy Storage",
+            "text": "Each provider placed in the multiblock increases how much $(item)RF per tick$() the multiblock is capable of transferring."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:mekanism_adv_induction_cell",
+            "title": "Energy Storage",
+            "text": "Each cell placed in the multiblock increases how many RF units the multiblock is capable of storing."
+        }
+    ]
+}

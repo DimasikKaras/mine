@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 4.0,
+        "max": 6.0
+      },
+      "entries": [
+        {
+          "entryName": "pistons",
+          "name": "minecraft:piston",
+          "weight": 5,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1,
+                "max": 2
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "diamonds",
+          "name": "minecraft:diamond",
+          "weight": 5,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2,
+                "max": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "steel",
+          "name": "thermalfoundation:material",
+          "weight": 3,
+          "type": "item",
+          "functions": [
+            {
+              "data": 160,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 3,
+                "max": 5
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "string",
+          "name": "minecraft:string",
+          "weight": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 7,
+                "max": 11
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

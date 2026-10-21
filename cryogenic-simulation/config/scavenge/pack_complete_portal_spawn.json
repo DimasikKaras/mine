@@ -1,0 +1,50 @@
+{
+    "block_pools": [
+        {
+            "name": "PackCompletePortalSpawn",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:escape_platform_unlocker",
+                "meta": 0
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:nau_two_use_item"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "use_command",
+                    "name": "pillar-spawn",
+                    "arguments": "pack_complete_portal ~1 ~ ~-4 180"
+                },
+                {
+                    "type": "use_command",
+                    "name": "playsound",
+                    "arguments": "block.anvil.use master @p ~ ~1 ~ 0.6"
+                },
+                {
+                    "type": "use_command",
+                    "name": "playsound",
+                    "arguments": "block.end_portal.spawn master @p ~ ~1 ~ 0.4"
+                },
+                {
+                    "type": "use_command",
+                    "name": "tellraw",
+                    "arguments": "@p [\"\",{\"text\":\"Thats it \"},{\"text\":\"XC-443\",\"color\":\"aqua\"},{\"text\":\"!\nThe road to freedom is straight ahead.\n\nJust give us the \"},{\"text\":\"Black Hole Containment Vessel \",\"color\":\"light_purple\"},{\"text\":\"and we will let you go.\nDon't think of the consequences!\nJust think of breathing real air for the first time.\",\"color\":\"white\"}]"
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "NAU-02 Nanobot Kit must be held!"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+printDefaultConfigs(false)
+printDocumentation(false)
+removeVanillaAdvancements(true)
+removeModAdvancements(false)
+keepAdvancements([""])
+removeAdvancements([""])
+allowDragging(true)
+useNewParentCompletionCriteriaNames()
+
+removeAdvancements(["appliedenergistics2", "astralsorcery", "botania", "improvedbackpacks", "immersiveengineering", "enderio", "enderioconduits", "enderiomachines", "rftools"])

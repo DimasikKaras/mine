@@ -1,0 +1,13 @@
+{
+    "name": "Pack Reviews",
+    "icon": "contenttweaker:mastery_token_final",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you enjoyed playing $(item)Cryogenic Simulation$(), a review would be greatly appreciated.$(br2)The pack can be rated/reviewed on $(l:https://moddex.gg/modpack/cryogenic-simulation)moddex.gg$()$(br2)$(item)Jamez28 video review:$()$(br)$(l:https://www.youtube.com/watch?v=Pg0t7uph1SQ)Conquer the Simulations, a Cryogenic Simulation Review$()"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "The Combat Simulation",
+    "description": "The $(item)Combat Simulation$() was designed to test the combat prowess of the participant.$(br2)It's a grueling place, but we're confident in your adaptability.",
+    "icon": "enderio:block_enderman_skull",
+    "sortnum": 4
+}

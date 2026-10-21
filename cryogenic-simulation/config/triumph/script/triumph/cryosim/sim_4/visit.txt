@@ -1,0 +1,19 @@
+addParent("triumph:cryosim/sim_3/visit")
+
+setIcon(<enderio:block_enderman_skull>)
+setTitle("The Combat Simulation")
+setDescription("A world designed to test your combat prowess. However, something does not quite check out.")
+setAnnounceToChat(true)
+setShowToast(true)
+
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(91)
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/sim_4/visit_reward")
+
+hiddenUnless("triumph:cryosim/sim_4/visit")
+
+setPos(162,27)

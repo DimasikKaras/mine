@@ -1,0 +1,19 @@
+addParent("triumph:cryosim/sim_4/visit")
+
+setIcon(<mekanism:oreblock>)
+setTitle("Mineral Quarry Simulation")
+setDescription("An artificially created pocket dimension filled with minerals.")
+setAnnounceToChat(true)
+setShowToast(true)
+
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(93)
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/sim_5/visit_reward")
+
+hiddenUnless("triumph:cryosim/sim_5/visit")
+
+setPos(203,27)

@@ -1,0 +1,16 @@
+{
+    "name": "Simulation Goal",
+    "icon": "contenttweaker:endgame_platform_assembler",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 0,
+    "priority": true,
+    "pages": [
+        {
+            "type": "crafting",
+            "title": "Simulation Goal",
+            "recipe": "crafttweaker:ct_nau01_builder",
+            "text": "The goal of this simulation is to reach new technological strides.$(br2)Once these strides have been made, you can craft a $(item)Nanobot kit$() to assemble the upper area of the portal hub."
+        }
+    ]
+}

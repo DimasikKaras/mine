@@ -1,0 +1,33 @@
+{
+    "name": "End of Dimension Tips",
+    "icon": "astralsorcery:blockcustomore:1",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "text",
+            "title": "End of Dimension Tips",
+            "text": "This chapter covers some tips and or tricks for rounding out this simulation."
+        },
+        {
+            "type": "materials",
+            "title": "Selective Quarrying",
+            "item1": "astralsorcery:blockcustomsandore",
+            "item2": "traverse:red_rock",
+            "item3": "minecraft:clay",
+            "notes": "As mentioned in the $(l:sim_2/__late_dimension_tips#quarry)End of Dimension Tips of the last chapter$(), the quarry card in a builder help you acquire resources quickly.$(br2)$(br2)Moving the quarry to another simulation, for example the $(item)Lunar Plane$(), and whitelisting only $(item)Aquamarine Shale$() in the filter will prove extremely useful."
+        },
+        {
+            "type": "crafting",
+            "recipe": "appliedenergistics2:network/parts/level_emitter",
+            "title": "Balancing Automations",
+            "text": "Automations that run without stop can quickly drain all your resources. Sometimes that is not desirable.$(br2)The $(item)Level Emitter$() lets you emit a redstone signal when you are above/under a certain level in your AE2 network."
+        },
+        {
+            "type": "text",
+            "title": "Balancing Automations",
+            "text": "For example, you could have a $(item)Fluid Transposer$() that only runs when it receives a high redstone signal.$(br2)Then you place a $(item)Level Emitter$() pointing towards the $(item)Fluid Transposer$(), only emitting a redstone signal if you have less than 3000 $(item)Wet Clay$() in your AE2 network."
+        }
+    ]
+}

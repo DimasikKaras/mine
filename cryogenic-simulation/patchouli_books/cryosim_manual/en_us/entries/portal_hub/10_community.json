@@ -1,0 +1,23 @@
+{
+    "name": "Community",
+    "icon": "minecraft:cake",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(l:https://discord.gg/TuK7VAA9xd)Cryogenic Simulation Discord$() is a community server where the pack can be discussed.$(br2)The following pages contain lets play series of the pack.$(br2)Reach out on discord if you want your series posted in this book."
+        },
+        {
+            "type": "text",
+            "title": "Jamez28",
+            "text": "$(item)Channel Description$(): Hey There, im your Host Jamez28. Come with me as we explore the minecraft modpack multiverse.$(br2)$(l:https://www.youtube.com/playlist?list=PLAU4WlRCCLJdqbNaJqyDlOLBYb9yPaIDV)Cryogenic Simulation Playthrough Playlist$()$(br2)Series current progression stage: $(item)Pack completed$()"
+        },
+        {
+            "type": "text",
+            "title": "Snock",
+            "text": "Snock's series contains voice acting and is very immersive and fun.$(br2)Be sure to check it out!$(br2)$(l:https://www.youtube.com/playlist?list=PLLTb_2VTInbQ)Cryogenic Simulation Playthrough Playlist$()$(br2)Series current progression stage: $(item)The Midnight$()"
+        }
+    ]
+}

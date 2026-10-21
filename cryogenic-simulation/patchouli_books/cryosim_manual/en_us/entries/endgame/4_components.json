@@ -1,0 +1,58 @@
+{
+    "name": "1: Sacrificial Star Engine",
+    "icon": "contenttweaker:gear_stellar",
+    "category": "endgame",
+    "advancement": "triumph:cryosim/endgame_platform/built_platform",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This chapter details some important components you will have to make before you can finish the $(item)Sacrificial Star Engine$().$(br2)Pay careful attention. This is the most important task in your life."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_nano_pcb",
+            "text": "Used mainly for constructing the $(item)Star Engine Processing Unit$().$(br2)You will need to construct 19 of these. 15 for making the star engine, 4 for later uses."
+        },
+        {
+            "type": "spotlight",
+            "title": "Gear of Mana and Life",
+            "item": "contenttweaker:gear_stellar",
+            "text": "The $(item)Irradiated Gear of Mana and Life$() is made in an $(item)Enderium Infusion Basin$() with some nuclear waste, and other quality components.$(br2)It's a main component in making $(item)Star Engine Mechanical Casing$(). You will need to construct 30 of these. 28 for making the star engine, 2 for later uses."
+        },
+        {
+            "type": "spotlight",
+            "title": "Mastery Tokens",
+            "item": "contenttweaker:mastery_token_final",
+            "text": "$(l:endgame/3_mastery_tokens)Mastery Tokens$(), like their name suggests, are tokens that represent your mastery over the previous simulations you have already completed.$(br2)The $(item)Sacrificial Star Engine$() is a complex piece of machinery. Which is why we have included $(item)Mastery Tokens$() in the recipes, to prove that you are ready to use it."
+        },
+        {
+            "type": "spotlight",
+            "title": "Ethereal Slates",
+            "item": "bloodmagic:slate:4",
+            "text": "Remember what we said early on about $(l:sim_2/0_goal)blessing technology$()? Technology does not exist without the help from our $(item)Gods$().$(br2)So our ultimate technology also need the ultimate blessing. The $(item)Ethereal Slate$() requires that your blood network is bound to an $(item)Archmage Blood Orb$()."
+        },
+        {
+            "type": "text",
+            "title": "Ethereal Slates",
+            "text": "When your network is bound to an $(item)Archmage Blood Orb$(), you procure the $(item)Ethereal Slates$() from the $(l:sim_4/7_slate_ossuary)Slate Ossuary$().$(br2)Each $(item)Ethereal Slate$() will require a few $(item)Demonic Slates$(), and 1.5 Million LP.$(br2)You will require 8 of these slates to build the $(item)Sacrificial Star Engine$()."
+        },
+        {
+            "type": "materials",
+            "title": "Star Engine Materials",
+            "item1": "contenttweaker:endgame_mm_casing#129",
+            "item2": "contenttweaker:endgame_mm_mechanical#28",
+            "item3": "contenttweaker:endgame_mm_cpu#15",
+            "item4": "contenttweaker:sub_block_holder_0#44",
+            "item5": "bloodmagic:blood_rune:9#20",
+            "notes": "You will need to craft the $(item)Star Engine Casing$() recipe 8 times to get the 176 casing needed to finish the $(item)Sacrificial Star Engine$().$(br2)129 Will be placed, 28 will become $(item)Mechanical Casing$() and 15 will become $(item)Processing Units$(). Inert casing is made functional by blessing it with a starlight beam."
+        },
+        {
+            "type": "spotlight",
+            "title": "Irradiated Star Blood",
+            "item": "forge:bucketfilled{FluidName:star_blood}",
+            "text": "Below the 4 pillars in the structure, each tank has to be filled with $(item)Irradiated Star Blood$(). This is its own challenge.$(br2)The primary key to making it is $(item)Primal Nature$(). You should set up cloches with speed modifiers early to be able to make enough $(item)Nature Singlarities$() later on."
+        }
+
+    ]
+}

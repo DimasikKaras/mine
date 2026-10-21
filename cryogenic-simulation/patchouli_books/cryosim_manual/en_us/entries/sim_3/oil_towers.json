@@ -1,0 +1,30 @@
+{
+    "name": "Abandoned Oil Towers",
+    "icon": "immersiveengineering:metal_decoration0:5",
+    "category": "sim_3",
+    "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+    "priority": true,
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "In the $(item)Arid Waste$() you can find $(item)Abandoned Oil Towers$().$(br2)This whole simulation is a lifelike copy of what the current day $(item)Arid Waste$() is like.$(br2)As you can see, things did not go so well here, as mentioned in the $(l:sim_3/resources/2_fluids#ruined)Resources$() section.$(br2)If only we developed renewable energy sooner.."
+        },
+        {
+            "type": "text",
+            "text": "These $(item)Abandoned Oil Towers$() is all that is left of our perverse industrialisation of this place.$(br2)At the time, we thought a method called $(item)fracking$() was a good idea, since the $(item)oil$() was trapped in light porous rock beneath the topsoil.$(br2)It brought out some nasty things from the depths of the planet. It also caused the $(item)oil$() to ultimately flood the entire planet. So now it's everywhere."
+        },
+        {
+            "type": "text",
+            "text": "Now when we say $(item)\"abandoned\"$(), we are using the term loosely. We have not checked if they are really abadoned.$(br2)If I had to guess, I would say there's a 10% chance that some of the sturdier life forms have found refuge in the towers.$(br2)...maybe 20%$(br2)...maaaaaaaaaaaybe 40%"
+        },
+        {
+            "type": "text",
+            "text": "Look out for valuable blocks to pillage from the structure, there should be a good amount of $(item)steel plating$() you could salvage from the walls, and near the top of the tower I do believe we used some pretty $(item)valuable$() construction materials.$(br2)Our reports indicate that there is leftover $(item)oil$() inside. As well as some useful crafting components."
+        },
+        {
+            "type": "text",
+            "text": "$(item)Fracking$() took place close to the current sea level of this simulation. So you will find the towers in the $(item)Desert Shrubland$() biome."
+        }
+    ]
+}

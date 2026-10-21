@@ -1,0 +1,53 @@
+{
+    "name": "End of Dimension Tips",
+    "icon": "thermalexpansion:machine:3",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/hidden_book_advancement",
+    "sortnum": 10,
+    "pages": [
+        {
+            "type": "text",
+            "title": "End of Dimension Tips",
+            "text": "This chapter covers some tips and or tricks for rounding out this simulation."
+        },
+        {
+            "type": "crafting",
+            "title": "Efficient pigiron",
+            "recipe": "crafttweaker:te_induction_smelter",
+            "text": "In the more modern incarnation of the Alloy kiln, the $(item)Induction Smelter$() can smelt $(item)Pigiron Ingots$() more efficiently. Only requiring 1 $(item)Iron ingot$() per $(item)Bloody mud$()."
+        },
+        {
+            "type": "spotlight",
+            "title": "Automated starmetal",
+            "anchor": "starmetal",
+            "item": "astralsorcery:blockcustomore:1",
+            "text": "You could quite easily automate $(item)Starmetal$() using $(item)Mechanical Users$(), $(item)Mechanical Miners$() and $(item)Scanners$().$(br2)Set this up where you found your first floating crystal."
+        },
+        {
+            "type": "crafting",
+            "anchor": "quarry",
+            "recipe": "crafttweaker:rft_quarry_card",
+            "text": "If you're willing to go the extra mile in this simulation you can get a $(item)Quarry card$().$(br2)This will allow you to $(item)GREATLY$() improve your $(item)Resource Gathering Capabilities$() using the $(item)Builder$()."
+        },
+        {
+            "type": "text",
+            "title": "Quarry Card Setup",
+            "text": "The easiest way to quarry with the $(item)Quarry Card$() is Sneak right clicking with it in the air, then manually define a quite big box, like 100x90x100.$(br2)Then in the builder you can press one of the top-right buttons to align the box to one of the builder corners.$(br2)This is far more efficient then manually marking corners with the $(item)Quarry Card$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "rftools:filter_module",
+            "text": "The $(item)Filter$() is a great complement to the quarry card.$(br2)It can blacklist or whitelist items from the builder, either preventing or allowing the quarrying of items."
+        },
+        {
+            "type": "text",
+            "title": "Quarry Filter Setup",
+            "text": "A good way of setting up the filter is taking a mining trip, while holding the filter, you can add ores to the whitelist by $(item)SHIFT right clicking$() them.$(br2)Once you've found each ore, the filter is complete, and you can put it in a builder. The builder will now only care about mining ores.$(br2)Neat right?!"
+        },
+        {
+            "type": "text",
+            "title": "Quarry Power",
+            "text": "Quarrying even with a filter takes a lot of $(item)Power$().$(br2)2 solid power generation methods are covered in the start of the next chapter."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "8: Done with Darkness",
+    "icon": "contenttweaker:midnight_idol",
+    "category": "sim_4",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_dim_five_block",
+            "title": "Portal Block",
+            "text": "After crafting the $(item)Highly Irradiated Magical Core$() and conjuring the $(item)Bones of the Damned$() in the $(item)Slate Ossuary$() you will be able to complete the portal block leading into the next Simulation."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_midnight_idol",
+            "title": "Portal Activator",
+            "text": "Lighting the $(item)Portal$() to the fifth $(item)Simulation$() requires you to hold a $(item)Midnight Idol$()."
+        }
+    ]
+}

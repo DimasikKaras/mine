@@ -1,0 +1,14 @@
+{
+    "components": [
+        {
+            "type": "image",
+            "image": "cryosim:textures/images/midnight.png",
+            "x": 0,
+            "y": -5,
+            "height": 135,
+            "width": 240,
+            "texture_width": 240,
+            "texture_height": 135
+        }
+    ]
+}

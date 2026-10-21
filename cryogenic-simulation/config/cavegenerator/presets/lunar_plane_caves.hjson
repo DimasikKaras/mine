@@ -1,0 +1,46 @@
+{
+  dimensions: [ 89 ]
+  enabled: true
+  tunnels: {
+    resizeBranches: false
+    scale: {
+      startVal: 1.6
+    }
+    originHeight: [ 16, 55 ]
+    stretch: {
+      startVal: 1.5
+    }
+  }
+  caveBlocks: [
+    {
+      states: lava
+      height: [ 0, 10 ]
+    }
+  ]
+  wallDecorators: [
+    {
+      states: stone
+      directions: all
+      matchers: [ "dirt" ]
+      height: [ 0, 12 ]
+      integrity: 1
+      placement: EMBED
+    }
+    {
+      states: astralsorcery:blockmarble
+      directions: down
+      matchers: [ "stone", "stone:1" ]
+      height: [ 5, 55 ]
+      integrity: 1
+      placement: EMBED
+    }
+    {
+      states: glowstone
+      directions: up
+      matchers: [ "stone", "stone:1" ]
+      height: [ 12, 50 ]
+      integrity: 0.005
+      placement: EMBED
+    }
+  ]
+}

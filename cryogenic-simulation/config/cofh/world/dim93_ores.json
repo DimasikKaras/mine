@@ -1,0 +1,71 @@
+{
+    "dependencies": "thermalfoundation",
+    "populate": {
+        "osmium": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "mekanism:oreblock",
+                    "metadata": 0
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 14
+            },
+            "cluster-count": 80,
+            "min-height": 24,
+            "max-height": 60,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    93
+                ]
+            }
+        },
+        "deep_substrate": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "contenttweaker:deep_substrate_ore",
+                    "metadata": 0
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 10
+            },
+            "cluster-count": 60,
+            "min-height": 0,
+            "max-height": 24,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    93
+                ]
+            }
+        },
+        "salt": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "mekanism:saltblock",
+                    "metadata": 0
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 36,
+            "min-height": 0,
+            "max-height": 60,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    93
+                ]
+            }
+        }
+    }
+}

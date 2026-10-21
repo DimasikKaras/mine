@@ -1,0 +1,25 @@
+{
+    "name": "9: Blessed be the stone",
+    "icon": "contenttweaker:blessed_portal_stone",
+    "category": "sim_2",
+    "advancement": "triumph:cryosim/sim_2/hidden_book_advancement",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "text",
+            "text": "We're quite pleased with your progress and we think it's time you stand on your own for once.$(br2)You have been proven to be a quite resourceful specimen and we have trust that you will manage this task.$(br2)If you happen to fail though you would be stuck here for an indefinite amount of time, so yeah don't fail us."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:blessed_portal_stone",
+            "title": "Good luck you dummy",
+            "text": "To enter the next $(item)Simulation$() you need a lot of $(item)Cobblestone$().$(br2)You may need to construct several $(item)Spectral Relays$() to boost the starlight available to your $(item)Starlight Crafting Altar$() to be able to craft the $(item)Blessed Portal Stone$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_lunar_plane_idol",
+            "title": "Portal Activator",
+            "text": "Lighting the $(item)Portal$() to the third $(item)Simulation$() requires you to hold a $(item)Lunar Plane Idol$()."
+        }
+    ]
+}

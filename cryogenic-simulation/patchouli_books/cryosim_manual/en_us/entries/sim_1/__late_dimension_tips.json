@@ -1,0 +1,40 @@
+{
+    "name": "End of Dimension Tips",
+    "icon": "tconstruct:materials:14",
+    "category": "sim_1",
+    "advancement": "triumph:cryosim/sim_1/hidden_book_advancement",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "text",
+            "title": "End of Dimension Tips",
+            "text": "This chapter covers some tips and or tricks for rounding out this simulation."
+        },
+        {
+            "type": "crafting",
+            "title": "Unbreakable tools",
+            "recipe": "tconstruct:tools/materials/reinforcement",
+            "text": "Stip mining is for inefficient cavemen. And you don't want to be inefficient do you?$(br2)Putting 5x $(item)Reinforcement modifiers$() on your tool will make it unbreakable."
+        },
+        {
+            "type": "text",
+            "title": "Unbreakable tools",
+            "text": "This can easily be achieved by leveling your tinker tool a few times, or making it with some paper parts.$(br2)Once your tool is unbreakable you can use $(l:portal_hub/2_oreexcavation)Ore Excavation$() to uncover large areas of a cave without breaking your tool.$(br2)The increased sturdiness will also make it easier to level up, so it won't take long to fit other usable modifiers, like $(item)Fortune$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "extrautils2:miner",
+            "title": "Cobblestone Generator",
+            "text": "Pairing a vanilla cobblestone generator with a $(item)Mechanical Miner$() and a $(item)Mechanical Crafter$() will create a nifty little $(item)Compressed Cobblestone$() farm."
+        },
+        {
+            "type": "materials",
+            "item1": "openblocks:xp_drain",
+            "item2": "forge:bucketfilled{FluidName: \"xpjuice\", Amount: 1000}",
+            "item3": "extrautils2:drum:1",
+            "title": "Storing experience",
+            "anchor": "storing_xp",
+            "notes": "An $(item)XP Drain$() will let you drain your experience into a fluid container when you stand on top of it. The fluid container needs to be placed under the drain."
+        }
+    ]
+}

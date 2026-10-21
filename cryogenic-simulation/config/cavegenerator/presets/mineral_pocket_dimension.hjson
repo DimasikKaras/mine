@@ -1,0 +1,38 @@
+{
+  dimensions: [ 93 ]
+  enabled: true
+  tunnels: {
+    resizeBranches: false
+    scale: {
+      startVal: 4.5
+    }
+    originHeight: [ 9, 90 ]
+    stretch: {
+      startVal: 2.8
+    }
+  }
+  caveBlocks: [
+    {
+      states: contenttweaker:deep_substrate_water
+      height: [ 0, 10 ]
+    }
+  ]
+  wallDecorators: [
+    {
+      states: stone
+      directions: all
+      matchers: [ "dirt" ]
+      height: [ 0, 12 ]
+      integrity: 1
+      placement: EMBED
+    }
+    {
+      states: glowstone
+      directions: up
+      matchers: [ "stone", "stone:1" ]
+      height: [ 12, 55 ]
+      integrity: 0.005
+      placement: EMBED
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+give @p simple_trophies:trophy 1 0 {TrophyItem:{id:"minecraft:grass",Count:1b,Damage:0s},TrophyName:"Cryogenic Simulation Completion",TrophyColorRed:12,TrophyColorGreen:110,TrophyColorBlue:220,TrophyVariant:"neon"}
+
+tellraw @p ["",{"text":"You have escaped the clutches of the simulation, and more importantly, Atlas.\nWas it worth it?\n"},{"text":"You don't know","italic":true,"color":"light_purple"},{"text":"\n\nThank you for playing "},{"text":"Cryogenic Simulation","color":"aqua"},{"text":"\n"},{"text":"/IterationFunk","color":"yellow"},{"text":"\n"},{"text":"\n"},{"text":"If you enjoyed the pack, please consider reviewing it on https://moddex.gg/modpack/cryogenic-simulation","color":"yellow"}]

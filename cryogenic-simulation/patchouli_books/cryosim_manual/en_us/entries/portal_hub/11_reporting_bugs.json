@@ -1,0 +1,17 @@
+{
+    "name": "Reporting Bugs",
+    "icon": "contenttweaker:crystal_bug_larvae",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Issues can be reported $(l:https://github.com/xt9/CryogenicSimulation-Tracker/issues)here$().$(br2)Issues with mods should be reported to their respective issue tracker, not the modpacks issue tracker.$(br2)Some issues may never be solved since $(item)Cryogenic Simulation$() is a $(item)1.12.2$() modpack and a lot of mods do no longer offer support for this version."
+        },
+        {
+            "type": "text",
+            "text": "However, where appropriate the pack has chosen \"extended life\" mods where appropriate.$(br2)Additionally it has been a design philosophy of the pack to stick to battletested mods that have few bugs at this point.$(br2)$(item)Cryogenic Simulation$() should be a stable experience."
+        }
+    ]
+}

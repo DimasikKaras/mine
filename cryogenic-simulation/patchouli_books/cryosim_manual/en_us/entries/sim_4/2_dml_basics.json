@@ -1,0 +1,49 @@
+{
+    "name": "2: Deep Learning",
+    "icon": "deepmoblearning:simulation_chamber",
+    "category": "sim_4",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "title": "Combat Mastery",
+            "text": "To master combat, we need you to craft a few tools to help you along. The $(item)Deep Learner$() will track your progress with different monster types, by telling you how close you are to mastering combat against that specific monster.$(br2)Mastering combat will also give you access to new resources, and powerful rewards."
+        },
+        {
+            "type": "crafting",
+            "title": "2: Deep Learning",
+            "recipe": "crafttweaker:dml_deep_learner",
+            "recipe2": "crafttweaker:dml_data_model"
+        },
+        {
+            "type": "crafting",
+            "recipe": "deepmoblearning:recipe8_guide_book",
+            "text": "Mastering combat and reaping the full benefits of the $(item)Deep Learner$() is its own science. You can learn more inside the $(item)Deep Mob Learning$() guide book."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dml_simulation_chamber",
+            "text": "The $(item)Simulation Chamber$() will produce matter from $(item)Polymer Clay$() which you may have started producing to make your conduit cabling.$(br2)It will also train your models and sometimes produce $(item)Pristine Matter$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dml_simulation_chamber",
+            "text": "The $(item)Simulation Chamber$() will produce matter from $(item)Polymer Clay$() which you may have started producing to make your conduit cabling.$(br2)It will also train your models and sometimes produce $(item)Pristine Matter$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dml_loot_fabricator",
+            "text": "The $(item)Loot Fabricator$() will turn $(item)Pristine Matter$() into loot. The type of loot depend on the type of $(item)Pristine Matter$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:dml_trial_keystone",
+            "text": "The $(item)Trial Keystone$() will allow you to train even more efficiently, fighting waves of monsters in an arena style combat format.$(br2)Some $(item)Self Aware$() trials will even give you special rewards."
+        },
+        {
+            "type": "text",
+            "text": "To progress, you will need to produce a handful of various $(item)Pristine$() types."
+        }
+    ]
+}

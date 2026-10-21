@@ -1,0 +1,20 @@
+{
+    "name": "4: Home stretch",
+    "icon": "contenttweaker:pack_complete_unlocker",
+    "category": "endgame",
+    "advancement": "triumph:cryosim/endgame_platform/built_platform",
+    "sortnum": 7,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "4: Home Stretch",
+            "item": "contenttweaker:atlas_project_item",
+            "text": "Quickly craft the $(item)Black Hole Containment Vessel$(). Then Trade it to us via the $(item)Amadron Tablet$() to get the exit activation item."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:nau_two_use_item",
+            "text": "If you haven't yet, you should also manufacture the $(item)NAU-02 Nanobot Kit$() and use it to assemble the exit portal."
+        }
+    ]
+}

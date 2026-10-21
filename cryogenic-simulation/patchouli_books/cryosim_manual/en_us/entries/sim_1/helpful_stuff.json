@@ -1,0 +1,90 @@
+{
+    "name": "Quality of Life",
+    "icon": "hooked:hook:2",
+    "category": "sim_1",
+    "advancement": "triumph:cryosim/sim_1/hidden_book_advancement",
+    "priority": true,
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A few quality of life things that can be nice to get while you're in the first simulation."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:tconstruct_gadgets/slimeboots/green_modified",
+            "text": "Heights can be scary, so you might want to craft a couple of $(item)Slime Boots$() to keep you safe from any sort of falldamage.$(br2)Slime can easily be found in $(item)Lush Swamps$() in this simulation."
+        },
+        {
+            "type": "crafting",
+            "recipe": "hooked:diamond_hook",
+            "text": "You can upgrade your $(l:portal_hub/5_hook)Hook$() to a much faster version, with a lot more reach."
+        },
+        {
+            "type": "crafting",
+            "recipe": "openblocks:hang_glider_0",
+            "text": "This hang glider complements your $(l:portal_hub/5_hook)Hook$() really well and make you travel even faster."
+        },
+        {
+            "type": "crafting",
+            "title": "Tools",
+            "recipe": "tconstruct:tools/table/tool_station",
+            "text": "You can get through the first simulation without any fancy $(item)Tools$(), but if you want to make them you can."
+        },
+        {
+            "type": "crafting",
+            "recipe": "tconstruct:common/book",
+            "text": "Read this book for more information about making$(br)$(item)Tools$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "pickletweaks:watering_can",
+            "text": "Fill this thing up with $(item)Water$() and you are good to go.$(br2)Excellent for giving crops a gentle nudge in the right direction."
+        },
+        {
+            "type": "crafting",
+            "recipe": "chesttransporter:wooden_transporter",
+            "title": "Chest Transporters",
+            "text": "If you need to move your $(item)Chests$() or $(item)Drawers$() don't lift with your back, instead use the handy $(item)Chest Transporters$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "storagedrawers:basicdrawers_fulldrawers1_oak",
+            "title": "Drawers",
+            "text": "Can hold many stacks of the same item. The full sized one can hold $(item)512 stacks$(), or around 33k items (for items that stack up to 64).$(br2)When the drawer is dismantled, the containing items will still stay inside."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:sd_compacting",
+            "title": "Compacting Drawers",
+            "text": "When a convertable item is inside, like for example an $(item)Iron Ingot$(), it will allow the user to also interact with the compacted/dilluted form of the item.$(br2)Which in this case would be $(item)Iron Blocks$() and $(item)Iron Nuggets$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "improvedbackpacks:item.backpack",
+            "title": "Backpacks",
+            "text": "You can make equippable backpacks a bit into this simulation. Handy for storing $(item)Tools$() and $(item)Snacks$(). Can be equipped in the body bauble slot.$(br2)Open keybind: $(item)$(k:Open Backpack)$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:danknull_tier1",
+            "text": "A dank null is a thing of wonder. It will store items up to a threshold, and after reaching that threshold it will $(item)Destroy$() the items.$(br2)It will automatically collect drops that matches the current contents."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:danknull_tier2",
+            "text": "As you upgrade your dank null it can hold more item types, and every slot can hold more items."
+        },
+        {
+            "type": "crafting",
+            "recipe": "betterbuilderswands:recipewandstone",
+            "anchor": "buildingwands",
+            "text": "$(item)Building Wands$() is a tool that lets you place multiple blocks down at a time.$(br2)The stone wand is somewhat limited, but later tiers like $(item)Diamond$() or $(item)Unbreakable$() is very useful."
+        },
+        {
+            "type": "crafting",
+            "recipe": "pickletweaks:nightvision_goggles",
+            "text": "Nifty headgear that will make the wearer see in the dark."
+        }
+    ]
+}

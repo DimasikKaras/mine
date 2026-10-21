@@ -1,0 +1,27 @@
+{
+    "name": "9: Glorious HDPE",
+    "icon": "mekanism:polyethene:2",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 11,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The final form of $(item)Plastic$(). Much better than all previous forms of plastic you have manufactured.$(br2)This plastic will require a fair bit of chemistry, but do not let that scare you off! Chemistry is fun!$(br2)HDPE is made from $(item)Substrate$() and $(item)Liquid Ethylene$(). $(item)Substrate$() is made from $(item)Bio Fuel$(), $(item)Liquid Plastic$() and $(item)Hydrogen$()."
+        },
+        {
+            "type": "text",
+            "text": "It also happens that $(item)Ethylene$() is a by-product when making $(item)Substrate$(). Before we jump into details, we want to stress that its important that you have a lot of $(item)Liquid Plastic$().$(br2)$(item)Bio Fuel$() is made in a $(item)Crusher$() from most forms of biomass.$(br2)Hydrogen can be extracted with a $(item)Electrolytic Separator$() from $(item)Water$().$(br2)It is advisable to dump all excess gas from the separator so it does not stop running."
+        },
+        {
+            "type": "text",
+            "text": "The excess $(item)Oxygen$() from the $(item)Electrolytic Separator$() go into a $(item)Pressurized Reaction Chamber$() (PRC) with the substrate.$(br2)You will have to use a $(item)Rotary condensentrator$() to turn the $(item)Ethylene$() gas into a liquid that can be used in the PRC."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:rod_packed",
+            "title": "Radiation Container",
+            "text": "HDPE enables you to create containers that do not leak radiation.$(br2)..Well, they leak radiation but its so little no one is really going to notice!$(br2)The HDPE can also be used to make $(l:sim_5/helpful_stuff#inductioncasing)Induction Casing$(). Which can form a powerful energy storage block."
+        }
+    ]
+}

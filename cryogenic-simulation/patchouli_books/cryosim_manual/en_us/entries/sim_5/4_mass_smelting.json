@@ -1,0 +1,27 @@
+{
+    "name": "4: Mass Smelting",
+    "icon": "thermalexpansion:augment:257",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "thermalexpansion:augment:257",
+            "title": "Mass Smelting",
+            "text": "Now you have a new problem. Our $(l:sim_3/7_slow_down#autosmelting)previous recommended approach$() to handling ores is about to be inefficient.$(br2)It did produce some $(item)Rich Slag$(), put it also required 1 sand per smelting operation. You are about to smelt thousands of ores per second, producing that much sand would be a big hassle."
+        },
+        {
+            "type": "text",
+            "text": "We now recommend handling most ore smelting with $(item)Flux Anodizers$(). This will double how many ingots you get per smelting operation, but will require no sand.$(br2)For $(item)Redstone Ore$() we recommend the $(item)Pulverizer$(), because it will produce a substantial amount of $(item)Cinnabar$().$(br2)For the $(item)Gold Ore$(), we recommend using the $(item)Induction Smelter$(), and smelting it with the $(item)Cinnabar$() you get from pulverizing redstone."
+        },
+        {
+            "type": "text",
+            "text": "Smelting the $(item)Gold Ore$() with $(i)Cinnabar$() will produce a vast amount of $(item)Rich Slag$(). Which in turn will allow you to produce a vast quantity of $(item)Wyrm Milk$() without worrying about $(item)Rich Slag$(). It also yields 3 $(item)Gold Ingots$() instead of 2.$(br2)$(bold)We strongly recommend that you process all of the ores that the $(item)World Wyrm finds.$()$(br2)$(bold)Our future projects will require a lot of $(item)Metals, $(item)Redstone and$() $(bold)$(item)Coal$()."
+        },
+        {
+            "type": "text",
+            "text": "$(bold)Make sure your wyrm gets plenty of wyrm milk, it is important that the wyrm burrow never run out of milk so you have plenty of metals later on.$()$(br2)When you automate $(item)Starmetal Ore$(), we also recommend smelting it with $(item)Cinnabar$() for that ingot tripling."
+        }
+    ]
+}
