@@ -1,0 +1,44 @@
+{
+  "name": "Полезные мелочи (QoL)",
+  "icon": "deepmoblearning:glitch_infused_helmet",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+  "priority": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "crafting",
+      "title": "Take to the Skies",
+      "recipe": "deepmoblearning:armor_tools/recipe2_helm",
+      "text": "After finishing the first 2 chapters of this Simulation. You can create the $(item)Glitch Infused$() armor set.$(br2)This will bestow the wearer with creative flight, among other benefits."
+    },
+    {
+      "type": "spotlight",
+      "title": "Enderference Tools",
+      "item": "tconstruct:wide_guard{Material: endstone}",
+      "text": "Crafting tool parts out of $(item)Endstone$() produces parts that have the $(item)Enderference$() trait. It will prevent $(l:sim_4/inhabitants)Endermen$() from teleporting away.$(br2)We recommend putting it on a Broadsword and/or on a Shuriken."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:if_black_hole_unit",
+      "text": "A great upgrade to the drawers. The $(item)Black Hole Unit$() can hold a near infinite amount of one type of item."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:if_black_hole_tank",
+      "text": "A great upgrade to the portable tanks. The $(item)Black Hole Tank$() can hold a near infinite amount of one type of liquid."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:if_black_hole_controller",
+      "title": "Black Hole Controller",
+      "text": "The $(item)Black Hole Controller$() can hold multiple $(item)Black Hole Tanks$() or $(item)Black Hole Units$() inside."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:if_meatfeeder",
+      "title": "Meat Feeder",
+      "text": "Ever feel tired of eating? With the $(item)Advanced PCBs$() unlocked early on in this simulation, you can make a gadget that automatically feeds you liquid meat.$(br2)Perfect for long arduous battles!"
+    }
+  ]
+}

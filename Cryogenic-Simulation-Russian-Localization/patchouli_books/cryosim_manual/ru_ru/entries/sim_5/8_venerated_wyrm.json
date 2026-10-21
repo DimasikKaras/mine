@@ -1,0 +1,18 @@
+{
+  "name": "8: Почитаемый мировой червь",
+  "icon": "contenttweaker:venerated_tunneling_world_wyrm",
+  "category": "sim_5",
+  "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "With the $(item)Molten Salt Reactors$() you made you gained access to $(item)Nuclear Waste$(). And since you now know how to make $(item)Эндер-кристаллs$(), you could also make $(item)Weather Crystals$().$(br2)With that out of the way, you could now birth a $(item)Почитаемый мировой червь$(). It is much more skilled than a normal $(item)World Wyrm$() and can mine for much rarer resources."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:venerated_tunneling_world_wyrm",
+      "text": "We also have a sneaking suspicion that this wyrm can bring home a new type of rare resource.$(br2)Ascend another larvae. Birth another $(item)Reanimated World Wyrm$(). Once you have that you can make quick work of bringing the $(item)Почитаемый мировой червь$() into the world."
+    }
+  ]
+}

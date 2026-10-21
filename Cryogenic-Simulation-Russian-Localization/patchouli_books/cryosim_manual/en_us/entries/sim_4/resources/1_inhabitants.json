@@ -1,0 +1,55 @@
+{
+  "name": "Существа ночи",
+  "icon": "midnight:deceitful_snapper",
+  "category": "sim_4/resources",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "entity",
+      "entity": "midnight:rifter",
+      "scale": 0.95,
+      "text": "...Do they even have a face?$(br)So creepy!$(br)Be vigilant, or they will sneak up on you."
+    },
+    {
+      "type": "entity",
+      "entity": "midnight:hunter",
+      "scale": 0.3,
+      "text": "Our scans indicate $(item)Hunters$() scour the surface level of $(item)The Midnight$(), looking for easy prey."
+    },
+    {
+      "type": "entity",
+      "entity": "midnight:crystal_bug",
+      "offset": -0.4,
+      "scale": 1,
+      "anchor": "crystalbug",
+      "text": "The crystal bugs resembles butterflys and are found in the $(item)Crystal Spires$() biome. It's drawn to $(item)Bloomcrystals$()"
+    },
+    {
+      "type": "entity",
+      "entity": "midnight:nightstag",
+      "offset": 0.4,
+      "scale": 0.7,
+      "text": "Roams most biomes on the surface level. Tough.$(br)But their meat probably tastes amazing. Looks kind of regal."
+    },
+    {
+      "type": "entity",
+      "entity": "midnight:nova",
+      "scale": 1,
+      "text": "This cluster looking thing was found when scanning the $(item)Caves$() of the pocket dimension."
+    },
+    {
+      "type": "entity",
+      "entity": "midnight:stinger",
+      "scale": 1,
+      "text": "The initial scan indicate that the $(item)Caves$() contain spider nests. The spiders themselves are small, but deadly."
+    },
+    {
+      "type": "entity",
+      "entity": "midnight:deceitful_snapper",
+      "offset": -0.3,
+      "scale": 1,
+      "text": "Found in $(item)Deceitful Bogs$() in bodies of water. A nasty little fish that will snap at your heels."
+    }
+  ]
+}

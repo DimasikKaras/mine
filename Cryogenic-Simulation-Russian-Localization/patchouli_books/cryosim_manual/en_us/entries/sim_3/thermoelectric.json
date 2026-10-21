@@ -1,0 +1,58 @@
+{
+  "name": "Индустриальная энергия",
+  "icon": "immersiveengineering:metal_decoration0:1",
+  "category": "sim_3",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "priority": true,
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "You can now make some pretty badass $(item)Machinery$()! Good Job!$(br2)Now you might want something a bit more robust for $(item)Power Generation$(), a solid option at this point would be the $(item)Thermoelectric Generator$()$(br2)The $(item)Thermoelectric Generator$() mixes hot & cold liquids together to create power."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:td_leadstone_fluxduct",
+      "recipe2": "crafttweaker:mm_energyoutput",
+      "text": ""
+    },
+    {
+      "type": "materials_triple_row",
+      "title": "Thermoelectric Mats",
+      "item1": "modularmachinery:blockcontroller",
+      "item2": "modularmachinery:blockfluidinputhatch:7#2",
+      "item3": "modularmachinery:blockenergyoutputhatch:6",
+      "item4": "immersiveengineering:metal_decoration0:1",
+      "item5": "tconstruct:seared_tank",
+      "item6": "immersiveengineering:metal_decoration0:7#20",
+      "item7": "immersiveengineering:storage:8#8",
+      "item8": "immersiveengineering:metal_decoration0:5#4",
+      "item9": "immersiveengineering:metal_device1:6#2",
+      "item10": "tconstruct:clear_stained_glass:7#4",
+      "item11": "immersiveengineering:metal_decoration1",
+      "notes": "Don't forget to use $(l:portal_hub/4_schematica)Schematica$() if you're unsure of how to build the multiblock.$(br2)A redstone signal will stop the machine from consuming liquid."
+    },
+    {
+      "type": "spotlight",
+      "title": "Индустриальная энергия",
+      "item": "modularmachinery:itemblueprint{dynamicmachine: \"modularmachinery:thermoelectric_generator\"}",
+      "text": "To see all of the $(item)Hot$() and $(item)Cold$() liquid combinations that produces $(item)Power$(), check out the uses of the Machine Blueprint$(br)(This item is not required to use the $(item)Generator$())$(br2)$(item)Hardened Fluiducts$() are recommended for handling hot & cold fluids."
+    },
+    {
+      "type": "text",
+      "title": "Alternative power",
+      "text": "If you're not so keen on the $(item)Thermoelectric Generator$() and you don't mind the automation challenge. You can make $(item)Biodiesel$() in a $(item)Refinery$(), then feed it to $(item)Diesel Generator$() multiblocks (Under Immersive Engineering in $(l:portal_hub/4_schematica)Схематика (Schematica)$()). Though you might need a lot of $(item)Garden Cloches$() to sustain it.$(br2)Remember that $(item)Garden Cloches$() can grow crops faster when combining fluid fertilizers with item fertilizers."
+    },
+    {
+      "type": "spotlight",
+      "title": "Alternative power",
+      "item": "industrialforegoing:sewage_composter_solidifier",
+      "text": "One good $(item)Garden Cloche$() amplifier at this point is solid $(item)Fertilizer$(). Made by composting sewage, which can be obtained from the $(item)Animal Sewer$().$(br2)$(item)Melons$() are a good source of $(item)Ethanol$() and $(item)Pumpkin seeds$() are a good source of $(item)Plant Oil$()."
+    },
+    {
+      "type": "text",
+      "title": "Alternative power",
+      "text": "$(item)Melons$() can be turned into $(item)Melon slices$() by slicing them in the $(item)Metal Press$() multiblock, or by placing them in the world and breaking them.$(br2)This can be automated with the $(l:sim_2/helpful_stuff#night_ritual)Mechanical user$() and $(item)Mechanical Miner$()."
+    }
+  ]
+}

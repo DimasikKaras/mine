@@ -1,0 +1,71 @@
+{
+  "name": "4: Наверное, не кордицепс",
+  "icon": "midnight:dewshroom",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 5,
+  "pages": [
+    {
+      "title": "Magical Flora",
+      "type": "spotlight",
+      "item": "midnight:bogshroom_hat",
+      "text": "Our early scans indicate that the natural $(l:sim_4/resources/0_surface_level#fungi)Mushroom$() flora of $(item)The Midnight$() have a staggering amount of $(item)Primal Mana$().$(br2)Harnessing this magical energy cannot be done with Altars or Rituals like in the previous simulations though. It's time to get your fingers green with $(item)Botany$()."
+    },
+    {
+      "title": "Magical Flora",
+      "type": "spotlight",
+      "item": "midnight:ghost_plant",
+      "text": "To get started bending the magical will of the local flora, you need to transmute a $(l:sim_4/resources/0_surface_level#ghost_plant)Ghost Plant$().$(br2)You can transmute $(item)Ghost Plants$() by Right-Clicking them with a $(item)Resonating Wand$()."
+    },
+    {
+      "type": "materials_double_row",
+      "title": "Spore Reactor",
+      "anchor": "spore_reactor",
+      "item1": "midnight:nightstone#17",
+      "item2": "midnight:midnight_dirt#8",
+      "item3": "midnight:midnight_mycelium#4",
+      "item4": "midnight:miasma_surface#4",
+      "item5": "midnight:archaic_glass_pane#12",
+      "item6": "midnight:bogshroom#2",
+      "item7": "midnight:dewshroom#2",
+      "item8": "midnight:viridshroom#2",
+      "item9": "midnight:nightshroom#2",
+      "item10": "forge:bucketfilled{FluidName:dark_water}",
+      "notes": "To harness this $(item)Primal$() mana that is inside the mushrooms. You need to construct a $(item)Spore Reactor$().$(br2)The required materials can be seen in $(l:portal_hub/4_schematica)Schematica$(). Above is a list of some key items required."
+    },
+    {
+      "type": "fluid_to_item_transform",
+      "title": "Midnight Mycelium",
+      "input1": "minecraft:mycelium",
+      "output1": "midnight:midnight_mycelium",
+      "fluid": "cryosim:textures/fluids/dark_water_still.png",
+      "fluidTooltip": "Dark Water",
+      "description1": "To obtain the $(item)Midnight Mycelium$() required to build the $(item)Spore Reactor$() you will have to drop regular $(item)Mycelium$() into $(item)Dark Water$() found in the $(item)Midnight$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "thermalfoundation:material:1028",
+      "text": "After constructing the $(item)Spore Reactor$() in $(item)The Midnight$() (it will only function there), you will be able to start producing $(item)Spore Mana Dust$().$(br2)This refined mana compound can be melted into $(item)Primal Mana$(). This magical liquid can be transposed into a $(item)Mana Tablet$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:botania_mana_tablet",
+      "text": "The $(item)Mana Tablet$() can hold a great deal of $(item)Primal Mana$(), which can then be stored in $(item)Mana Pools$().$(br2)When dropped into a $(item)Mana Pool$(), the tablet will drain its mana into the mana pool."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:botania_mana_pool",
+      "text": "$(item)Mana Pools$() can store two full $(item)Mana Tablets$() worth of mana."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:botania_petal_apothecary",
+      "text": "Before you can craft $(item)Mana Pools$() or $(item)Mana Tablets$() you will need to create $(item)Living Rock$().$(br2)Craft a $(item)Petal Apothecary$(), and use that to make $(item)Pure Daisys$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "botania:lexicon",
+      "text": "Magical botany is not for the weak of heart, and a great deal of knowledge is required. Read the $(item)Lexica Botanica$() to learn more.$(br2)(The chapter on \"Generating Flora\" can be ignored)"
+    }
+  ]
+}

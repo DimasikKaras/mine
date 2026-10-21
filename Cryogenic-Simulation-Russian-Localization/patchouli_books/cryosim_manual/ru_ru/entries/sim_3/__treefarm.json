@@ -1,0 +1,33 @@
+{
+  "name": "Веселая древесная ферма",
+  "icon": "minecraft:sapling",
+  "category": "sim_3",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "minecraft:log",
+      "title": "A Happy Treefarm",
+      "text": "We all could use a little happiness in our lives. And what makes anyone more happy than seeing a little train, chooing along its tracks and chopping some trees along the way.$(br2)The $(item)Treecutter 3000$() can make all that a reality."
+    },
+    {
+      "type": "text",
+      "text": "It is made in the $(item)Industrial Assembler$() with materials you are already familiar with, so it should be an easy task for you.$(br2)Once you have made the $(item)Treecutter 3000$(), all you need is a $(item)Cargo Manager$(), $(item)Liquid Manager$(), $(item)Advanced Detector Rail$() and some normal rails.$(br2)The $(item)Treecutter 3000$() will zoop along the tracks, planting saplings and cutting down trees."
+    },
+    {
+      "type": "text",
+      "text": "All the little train ask in return is that you supply it with ample amounts of $(item)Lava$() and $(item)Water$(). Which you could easily solve with some $(item)Crucibles$() and a $(item)Water Supply Gadget$().$(br2)A $(item)Liquid Manager$() can supply the cart with liquids when the train passes by it, given that the rail next to the manager is an $(item)Advanced Detector Rail$().$(br2)The $(item)Cargo Manager$() can unload wood that the train has harvested."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:steve_liq_manager",
+      "recipe2": "crafttweaker:steve_manager"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:steve_detect_rail",
+      "recipe2": "minecraft:rail"
+    }
+  ]
+}

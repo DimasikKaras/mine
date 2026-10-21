@@ -1,0 +1,12 @@
+{
+  "name": "Magnetism Ritual (Boom)",
+  "icon": "appliedenergistics2:charged_quartz_ore",
+  "category": "videos",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это видео рассказывает о том, how you can set up and protect a Ritual of Magnetism, and how you drop TNT to harvest certus quartz.$(br2)$(l:https://www.youtube.com/watch?v=gDt_q7Zzp3s)Ссылка на видео$()"
+    }
+  ]
+}

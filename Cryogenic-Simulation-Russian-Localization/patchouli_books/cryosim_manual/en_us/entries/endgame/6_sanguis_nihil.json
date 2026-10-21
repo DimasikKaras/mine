@@ -1,0 +1,19 @@
+{
+  "name": "3: Sanguis Nihil (Кровь Ничто)",
+  "icon": "cryosimadditions:sanguis_nihil",
+  "category": "endgame",
+  "advancement": "triumph:cryosim/endgame_platform/built_platform",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "3: Sanguis Nihil (Кровь Ничто)",
+      "item": "cryosimadditions:sanguis_nihil",
+      "text": "Now that you have procured the $(item)Soul Crystals$() we need. It is time to summon $(item)Sanguis Nihil, The Sightless Eye of the Void$().$(br2)It is a slightly hostile star which have started forming a black hole.$(br2)$(italic)Don't look at us like that, we know."
+    },
+    {
+      "type": "text",
+      "text": "By now you are complicit in the preqrequisites for summoning $(item)Sanguis Nihil$().$(br2)Just whip up some more $(item)Soul Singularities$() and $(item)Sacrifice Remains$() that has been anointed, and we will be well on our way to harnessing the power of this malevolent star.$(br2)Once it has been summoned you should quickly craft the containment vessel."
+    }
+  ]
+}

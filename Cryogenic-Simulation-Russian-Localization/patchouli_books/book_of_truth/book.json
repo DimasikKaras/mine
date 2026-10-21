@@ -1,0 +1,15 @@
+{
+  "name": "Книга Истины",
+  "landing_text": "Сборник обучающих видеороликов по автоматизации и ключевым узлам сборки.",
+  "book_texture": "patchouli:textures/gui/book_gray.png",
+  "nameplate_color": "f9f613",
+  "progress_bar_color": "f9f613",
+  "version": 0,
+  "subtitle": "Книга практических знаний",
+  "advancements_tab": "",
+  "advancement_namespaces": [],
+  "macros": {
+    "$(primary)": "$(#0C6487)",
+    "$(item)": "$(#D1560E)"
+  }
+}

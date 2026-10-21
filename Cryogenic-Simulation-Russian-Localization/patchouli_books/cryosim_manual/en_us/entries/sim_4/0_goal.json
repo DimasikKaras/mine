@@ -1,0 +1,15 @@
+{
+  "name": "Цель симуляции",
+  "icon": "mekanism:teleportationcore",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 1,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Цель симуляции",
+      "text": "Now that you've found $(item)The Midnight$() pocket dimension, we want you to exploit the magic emanating from all the natural flora that can be found there.$(br2)The portal piece you need to craft to reach the next $(item)Simulation$() will require a $(item)Highly Irradiated Magic Core$() as the primary power source to power the portal."
+    }
+  ]
+}

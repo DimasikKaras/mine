@@ -1,0 +1,12 @@
+{
+  "name": "креозот Crafting",
+  "icon": "immersiveengineering:treated_wood",
+  "category": "videos",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это видео рассказывает о том, how you automate the inworld recipes that uses creosote.$(br2)$(l:https://www.youtube.com/watch?v=62RGcIZx1RE)Ссылка на видео$()"
+    }
+  ]
+}

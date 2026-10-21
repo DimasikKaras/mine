@@ -1,0 +1,21 @@
+{
+  "name": "Жидкости",
+  "icon": "forge:bucketfilled{FluidName: \"dark_water\"}",
+  "category": "sim_4/resources",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "forge:bucketfilled{FluidName:dark_water}",
+      "title": "темная вода",
+      "text": "$(item)Dark Water$() be found in many places in the pocket dimension, but there are larger lakes that we recommend that you pump it from."
+    },
+    {
+      "type": "spotlight",
+      "item": "forge:bucketfilled{FluidName:miasma}",
+      "title": "Miasma",
+      "text": "$(item)Miasma$() can be found in $(l:sim_4/resources/0_surface_level#miasma_crater)Miasma Craters$(). It's a superheated liquid that has no apparent use for now."
+    }
+  ]
+}

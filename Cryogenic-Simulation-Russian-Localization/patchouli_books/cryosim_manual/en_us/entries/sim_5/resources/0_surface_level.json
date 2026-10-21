@@ -1,0 +1,15 @@
+{
+  "name": "Поверхностные ресурсы",
+  "icon": "chisel:basalt2:7",
+  "category": "sim_5/resources",
+  "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "chisel:basalt2:7",
+      "title": "Basalt",
+      "text": "The surface of the $(item)Mineral Quarry$() is entirely encased in Basalt."
+    }
+  ]
+}

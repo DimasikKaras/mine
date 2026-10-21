@@ -1,0 +1,30 @@
+{
+  "name": "8: Космическая трансмутация",
+  "icon": "industrialforegoing:laser_lens",
+  "category": "sim_2",
+  "advancement": "triumph:cryosim/sim_2/hidden_book_advancement",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:laser_lens",
+      "title": "Cosmic Transmutation",
+      "text": "To enter the next $(item)Simulation$() you need to find a way to $(item)transmute$() some of the ores you've found so far into $(item)Ardite Ore$() and $(item)Cobalt Ore$().$(br2)With a $(item)Pristine Ocular Lens$(), and a little help from the gods, you will be able to obtain these ores in no time."
+    },
+    {
+      "type": "text",
+      "title": "Cosmic Transmutation",
+      "text": "You can temporarily repurpose your $(item)Altar of Blessings$() into a $(item)Altar of Cosmic Transmutation$() by replacing the $(item)Blood Raven Feather$() in the $(item)Spectral Relay$() with a $(item)Pristine Ocular Lens$().$(br2)This altar will let you transmute $(item)Copper$() into $(item)Ardite$() when using an $(item)Orange$() lens, and $(item)Silver$() into $(item)Cobalt$() when using a $(item)Blue$() lens.$(br2)Lenses are not consumed after a transmutation."
+    },
+    {
+      "type": "spotlight",
+      "item": "thermalfoundation:material:865",
+      "text": "The $(item)Rich Slag$() required is most easily obtained through smelting down $(item)Redstone Ore$() with sand in an $(item)Induction Smelter$().$(br2)$(item)Redstone Ore$() is obtained by mining it with a silk touch tool."
+    },
+    {
+      "type": "text",
+      "title": "Rich Slag",
+      "text": "Even though this is the most efficient way, you could also just smelt a bunch of random ores with sand. $(br2)The chance for $(item)Rich Slag$() is lower with other ores, but since you should be smelting ores like this anyway for a good while, it does not matter which route you end up taking."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Lategame Plastic",
+  "icon": "pneumaticcraft:refinery",
+  "category": "videos",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это видео рассказывает о том, making plastics in the lategame.$(br2)$(l:https://www.youtube.com/watch?v=RYufjj8Cbec)Ссылка на видео$()"
+    }
+  ]
+}

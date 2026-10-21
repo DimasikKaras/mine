@@ -1,0 +1,22 @@
+{
+  "name": "7: Эндер-кристалл",
+  "icon": "enderio:item_material:16",
+  "category": "sim_5",
+  "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "materials",
+      "title": "7: Эндер-кристаллs",
+      "item1": "forge:bucketfilled{FluidName:pure_calcium}",
+      "item2": "forge:bucketfilled{FluidName:emerald}",
+      "item3": "forge:bucketfilled{FluidName:superheated_miasma}",
+      "item4": "enderio:item_material:17",
+      "notes": "Ender crystals are a powerful resource that can be used in all kinds of advanced technology.$(br2)First you have to procure the $(item)Crystalline Liquid$() in the $(l:sim_5/2_wyrm_milk#darksteelmixer)Dark Steel Fluid Mixer$().$(br2)It is made by mixing $(item)Pure Calcium$(), $(item)Molten Emerald$() and $(item)Superheated Miasma$()."
+    },
+    {
+      "type": "text",
+      "text": "You also have to chuck in a $(item)Compacted Crystal Chunk$(). Which contains a myriad of valuable gems, minerals & crystals.$(br2)Each bucket of $(item)Shimmering Crystalline$() can produce a bit over 3 $(item)Эндер-кристаллs$().$(br2)Once you have the crystalline, all you need is to transpose it on top of a $(item)Pristine Enderman Matter$()."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Карта мира (JourneyMap)",
+  "icon": "minecraft:filled_map",
+  "category": "portal_hub",
+  "advancement": "triumph:cryosim/root",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Карта мира (JourneyMap)",
+      "text": "We have also supplied with you with a built in map-chip within your Visual Cortex.$(br2)Calling on it with the correct command will visualise a full sized map, which gives you plent of navigational information.$(br2)You can also use it to waypoint important locations.$(br2)Toggle map key: $(item)$(k:journeymap.map_toggle_alt)"
+    }
+  ]
+}

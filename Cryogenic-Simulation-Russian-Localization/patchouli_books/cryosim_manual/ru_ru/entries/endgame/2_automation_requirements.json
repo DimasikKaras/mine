@@ -1,0 +1,129 @@
+{
+  "name": "Требования к автоматизации",
+  "icon": "appliedenergistics2:crafting_storage_64k",
+  "category": "endgame",
+  "advancement": "triumph:cryosim/endgame_platform/built_platform",
+  "sortnum": 2,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "These pages will mostly give you a foundation of understanding of what automations are required in the endgame.$(br2)For more detailed help, use the $(item)Book of Truth$() to unlock the tutorial videos."
+    },
+    {
+      "type": "text",
+      "text": "$(li)20-30million mb plastic$()$(li)24k Silicon$()$(br2)The plastic is used for both $(item)Polymer Clay$() and $(item)Empty Radiation Containers$(). It is recommended to run atleast 1 $(item)LPG refinery at 1990c~$() (20 bar vortex tubes)$(br2)The silicon is mostly used for the 19k $(item)Electrical сталь Ingots$() used in making Capacitors and the Nano PCB."
+    },
+    {
+      "type": "text",
+      "title": "сингулярности/Neutronium",
+      "text": "$(li)2.82m Redstone Dust$()$(li)2m Iron Ingots$()$(li)650k ingots of each ingot in the Stellar Singularity$()$(li)775k Coal$()$(li)1.29m Cobblestone$()$(li)785 кристаллы пустоты (50k Lead Crystals)$()"
+    },
+    {
+      "type": "text",
+      "title": "Mana Battery",
+      "text": "Crafting $(item)Irradiated Gears of Mana and Life$(), $(item)Weather Crystals$() and the mastery token for the $(item)Combat Simulation$() require a lot of mana.$(br2)We recommend setting up a big $(item)Mana Battery$() using $(item)Sparks$() and $(item)Mana Pools$().$(br2)16 Mana pools as a buffer is probably a decent size."
+    },
+    {
+      "type": "text",
+      "title": "Life Essence Network",
+      "text": "We recommend having a $(item)Tier 5 charging altar$() with sacrifice runes for charging the $(item)Archmage Blood Orb$().$(br2)Over the course of your final days in the simulation, you will use over 22 million LP from your blood network.$(br2)12m LP for the $(item)Ethereal Slates$() you will use to make the $(item)Жертвенный звездный двигатель$(), and the remainder for other stuff..."
+    },
+    {
+      "type": "text",
+      "title": "Plastic Limiters",
+      "text": "We recommend having a few thousand of the colored plastics in your system. The most important being gray and light blue for $(item)Capacitors$() and $(item)Transistors$().$(br2)Lime and Light gray is also useful for making more logistical items for your $(item)Applied Energistics Network$()."
+    },
+    {
+      "type": "text",
+      "title": "сталь & Rods",
+      "text": "At this point you could easily craft $(item)Steel Ingots$() 24/7 without being starved for resources. You have more than plenty of Iron/Coal from your $(item)World Wyrms$(). This is advisable. $(br2)We also recommend having a few metal presses keeping your system stocked with $(item)HDPE rods$(), $(item)Steel Rods$() and $(item)Iron Rods$().$(br2)$(item)Compressed Iron Gears$() are also important to stock."
+    },
+    {
+      "type": "text",
+      "title": "Electrum",
+      "text": "$(item)Electrum$() is used in most circuitry you can produce.$(br2)From $(item)Capacitors & Transistors$(), to the $(item)Printed Circuit Bases$() and $(item)Redstone Conductance Coils$(). This resource is essential to making the more advanced circuitry you will need to build the $(item)Star engine$().$(br2)Level emitters filling your system with both $(item)Electrum Ingots$() and $(item)Electrum Wire$() is going to be handy."
+    },
+    {
+      "type": "text",
+      "title": "Stuff of Nature",
+      "text": "To create the $(item)Groveblood$() which is needed to procure the $(item)Irradiated Star Blood$(), you will need a lot of $(item)Nature Singularities$().$(br2)The Purpur is best procured from running a $(item)Chorus flower$() in a $(item)Phytogenic Insolator$().$(br2)The rest is best farmed in Cloches with $(item)Ammonium Nitrate$() + $(item)Growth Reagent$(). $(item)Troll Eye Goop$() is also a valid fertilizer."
+    },
+    {
+      "type": "spotlight",
+      "title": "Autocrafting Runes",
+      "item": "botania:rune:8",
+      "text": "It will probaby be overkill to automate all runes. But at this point you should at least be capable of autocrafting all of the previous runes.$(br2)Especially the $(item)Rune of Mana$()."
+    },
+    {
+      "type": "text",
+      "title": "Starlight Bonanza",
+      "text": "You will need a lot of $(item)Liquid Starlight$() and a lot of $(item)Resonating Gems$().$(br2)A lot of $(item)Liquid Starlight$() will go into making the $(item)Irradiated Star Blood$() and $(item)Infused Radiant Stars$().$(br2)A lot of Resonating Gems will be required to make the $(item)Combat Simulation$() token, and the $(item)Infused Radiant Stars$()."
+    },
+    {
+      "type": "text",
+      "title": "Wet Clay",
+      "text": "$(item)Wet Clay$() automation is essential to keep running a smooth automation of $(item)Polymer Clay$()."
+    },
+    {
+      "type": "spotlight",
+      "title": "полимерная глина",
+      "item": "deepmoblearning:polymer_clay",
+      "text": "Keeping a drawer topped with $(item)Polymer Clay$() at all times will be helpful. A continously running setup would be overkill, and eat too much of your plastic supply."
+    },
+    {
+      "type": "text",
+      "title": "DML Things",
+      "text": "To automate both the $(item)Infused Radiant Star$() and $(item)Эндер-кристалл$(), you will need a lot of $(item)Pristine Enderman Matter$() (both the matter and Pearls) and $(item)Pristine визер-скелет Matter$().$(br2)You will also need a decent amount of $(item)Pristine Witch Matter$() to procure $(item)Sinister Witch Dust$(). This is necessary for $(item)Cursed Earth$() and the occasional $(item)Nocturnal Powder$()."
+    },
+    {
+      "type": "materials",
+      "title": "Golden Residue Sifting",
+      "item1": "minecraft:glowstone_dust#8",
+      "item2": "minecraft:dye:4#2",
+      "item3": "minecraft:diamond#1",
+      "item4": "minecraft:emerald#1",
+      "notes": "Smashing a trickle of your $(item)Gold Ore$() supply into Golden Residue Dust, and then sifting it is gonna be your main source of $(item)Lapis$() and $(item)Glowstone$().$(br2)It will also be a nice source of extra $(item)Diamonds/Emeralds$()."
+    },
+    {
+      "type": "spotlight",
+      "title": "Token 1",
+      "item": "contenttweaker:mastery_token_sim_one",
+      "text": "$(item)String$() and $(item)Magma Block$() could be procured with one-off handcrafting. The rest is sane to automate."
+    },
+    {
+      "type": "spotlight",
+      "title": "Token 2",
+      "item": "contenttweaker:mastery_token_sim_two",
+      "text": "$(item)Troll Eyes$() could be procured quickly with a $(item)Mob Spawner$(). The rest is sane to automate.$(br2)Remember that you now have the means to harvest $(item)Blessed Blood Resin Logs$() in the Cloche."
+    },
+    {
+      "type": "spotlight",
+      "title": "Token 3",
+      "item": "contenttweaker:mastery_token_sim_three",
+      "text": "$(item)Nether Brick$() and $(item)Compressed Iron Ingot$() could be procured with one-off handcrafting. The rest is sane to automate."
+    },
+    {
+      "type": "spotlight",
+      "title": "Token 4",
+      "item": "contenttweaker:mastery_token_sim_four",
+      "text": "Everything is sane to automate."
+    },
+    {
+      "type": "spotlight",
+      "title": "Token 5",
+      "item": "contenttweaker:mastery_token_sim_five",
+      "text": "Everything is sane to automate."
+    },
+    {
+      "type": "materials",
+      "title": "Basic Materials",
+      "item1": "traverse:fir_log#1",
+      "item2": "minecraft:stone#1",
+      "item3": "minecraft:gravel#1",
+      "item4": "minecraft:glass#1",
+      "item5": "minecraft:string#1",
+      "notes": "Some other $(item)Basic Materials$() that you will need to keep a steady supply of.$(br2)Although if you do not have these automated by now, that makes us lose a little bit of faith in you.."
+    }
+  ]
+}

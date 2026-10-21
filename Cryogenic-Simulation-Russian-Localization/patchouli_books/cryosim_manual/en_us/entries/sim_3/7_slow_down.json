@@ -1,0 +1,56 @@
+{
+  "name": "7: Притормози, приятель",
+  "icon": "appliedenergistics2:interface",
+  "category": "sim_3",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(primary)XC-443$(), now that you have unlocked robust logistic capabilities you can freely automate and improve on previous designs.$(br2)These added capabilities mean that we also will expect more from you.$(br2)Future tasks will require a lot more materials, and a robust automation of ingredients from the earlier simulations."
+    },
+    {
+      "type": "text",
+      "text": "Before rushing of to complete the next shiny task, we think you should have the following things up and running:$(br2)$(li)Basic AE2 Network$(li)$(l:sim_2/__late_dimension_tips#quarry)Ore Quarry$()$()$(li)$(l:sim_3/helpful_stuff#conduits)Ender IO conduits$()$()$(li)Automated Ore Smelting$()$(li)Plate, Gear & Alloy autocrafting$()$(li)$(l:sim_2/__late_dimension_tips#starmetal)Starmetal automation$()$()$(li)Lubricant Automation$()$(li)Sanguine Metal Autocrafting$()$(li)Dried Brick Automation$()$(li)Brittle Plastic Automation$()$(li)Plastic Automation$()"
+    },
+    {
+      "type": "text",
+      "title": "Guidance",
+      "text": "The following pages will go into more depth about some of these requirements.$(br2)(We say requirements, but they are optional. You're free to chose your own pains.)"
+    },
+    {
+      "type": "spotlight",
+      "item": "thermalexpansion:machine:3",
+      "title": "Automated Ore Smelting",
+      "anchor": "autosmelting",
+      "text": "We recommend using $(item)Induction Smelters$() to process $(item)Ores$() into $(item)Ingots$().$(br2)This method is preferred by our people since it produces a lot of $(item)Rich Slag$().$(br2)To smelt $(item)Ores$() this way, you will also need a large amount of $(item)Sand$(), automate this too."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:tree_fluid_extractor",
+      "title": "Sanguine Autocrafting",
+      "text": "A large amount of blood can be produced by setting up an automation that places $(item)Blessed Blood Resin Logs$() on the ground, and having a few $(item)Tree Fluid Extractors$() tapping the logs for blood.$(br2)$(item)Bloody Mud$() has an alternate recipe in the $(item)Fluid Transposer$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "contenttweaker:lubricated_gear",
+      "title": "Lubricant Automation",
+      "text": "You should already have some sort of automation for this.$(br2)Make sure the biproducts are handled so the machines don't clog up."
+    },
+    {
+      "type": "spotlight",
+      "item": "tconstruct:rack:1",
+      "title": "Drying Automation",
+      "text": "Both $(item)Brittle Plastic$() and $(item)Dried brick$() are produced through drying. The $(item)Drying Racks$() you made in the first simulation is fully capable of being automated since they respond to cable IO.$(br2)If you want to ramp up production early, the $(item)Mass Drying Chamber$() may be worth to invest into."
+    },
+    {
+      "type": "text",
+      "text": "As with other multiblocks, it can be found in $(l:portal_hub/4_schematica)Схематика (Schematica)$().$(br2)Both options are viable, but the $(item)Mass Drying Chamber$() is of course more efficient.$(br2)$(l:sim_3/__late_dimension_tips)Selectively quarrying for clay$() may be a good option to get dried brick automation going."
+    },
+    {
+      "type": "text",
+      "title": "Sifting Automation",
+      "text": "It's also advisable to fully automate the $(l:sim_3/1_minerals)sifting$() of $(item)Red Canyon Dust$().$(br2)Further down the line you won't even have to pulverize the red rock into $(item)Red Canyon Dust$(), since it can be transmuted in the $(l:sim_2/8_cosmic_gazing)Altar of Cosmic Transmutation$().$(br2)Items can be inserted into the auto sifter with cabling."
+    }
+  ]
+}

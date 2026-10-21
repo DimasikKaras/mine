@@ -1,0 +1,37 @@
+{
+  "name": "2: Жатва душ",
+  "icon": "contenttweaker:celestial_soul_tether",
+  "category": "endgame",
+  "advancement": "triumph:cryosim/endgame_platform/built_platform",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "spotlight",
+      "title": "2: Жатва душ",
+      "item": "contenttweaker:celestial_soul_tether",
+      "text": "Okay champ, to finish the $(item)Black Hole Containment Vessel$() we need something called a $(item)Soul Crystal$().$(br2)The details of how we create them is not all that important. But for now all you need to know is that you need $(item)8million LP$() in your network and a few other things to manufacture a $(item)Celestial Soul Tether$()."
+    },
+    {
+      "type": "text",
+      "text": "Once you have the $(item)Celestial Soul Tether$(), you will need to perform another $(l:sim_4/6_meteor)Mark of the Falling Tower$() ritual.$(br2)Activate the ritual with the $(item)Awakened Activation Crystal$() and place the $(item)Celestial Soul Tether$() on the $(item)Master Ritual Stone$(), then stand back."
+    },
+    {
+      "type": "spotlight",
+      "title": "Bash the blue stuff",
+      "item": "contenttweaker:crystallized_soul",
+      "text": "Once the ritual is complete, use your hammer on the blue-ish crystal blocks that appeared.$(br2)Then collect the dropped clusters. $(br2)$(italic)We still urge you to not put too much thought into what it is that you are doing.$()"
+    },
+    {
+      "type": "spotlight",
+      "title": "Infuse the Crystal",
+      "item": "contenttweaker:soul_cluster{ench: [{lvl: 1, id: 13}]}",
+      "text": "Before you can make the $(item)Soul Crystals$(), you have to infuse the clusters with $(item)Soul Vials$() containing $(item)Rifter$() souls in the $(item)Soul Binder$()."
+    },
+    {
+      "type": "spotlight",
+      "title": "Finish the Crystal",
+      "item": "contenttweaker:soul_crystal",
+      "text": "Once the cluster is infused, you can use it with some $(item)Void Crystals$() in the $(item)Slice N Splice$() to make the $(item)Soul Crystals$()."
+    }
+  ]
+}

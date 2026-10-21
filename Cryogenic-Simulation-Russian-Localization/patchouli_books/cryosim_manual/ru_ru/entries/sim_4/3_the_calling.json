@@ -1,0 +1,32 @@
+{
+  "name": "⛧𖤍⫷⍊⟊⍦⫻𖤎⛓ꖺ⫸𐍂 (Зов бездны)",
+  "icon": "midnight:dark_pearl",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "midnight_image"
+    },
+    {
+      "type": "text",
+      "text": ""
+    },
+    {
+      "type": "text",
+      "text": "$(item)A Dark Presence calls out to you from the void.$()$(br2)I haven't heard from $(primary)Atlas$() or the $(primary)Command Center$() in a while. This might be worth investigating?$(br2)$(italic)A few day passes...$()$(br2)After researching the properties of $(item)Radiant Stars$(), you came up with a hypothesis. Attuning an $(item)Infused Radiant Star$() to the blood god will create a $(item)Star of the Blood Moon$()."
+    },
+    {
+      "type": "text",
+      "text": "Before you can test your hypothesis, you must synthesize a $(item)Infused Radiant Star$(). You believe you need something like the fluid transposer machine, but much more advanced.$(br2)You ponder for days, then finally come up with a design that could work. You have created the schematics for the $(item)Enderium Infusion Basin$() multiblock machine.$(br2)For a material list, check $(l:portal_hub/4_schematica)Схематика (Schematica)$()"
+    },
+    {
+      "type": "text",
+      "text": "Your theory is that the $(item)Star of the Blood Moon$() could open up rifts to other realities.$(br2)$(primary)Atlas$() never mentioned such a thing as multiple realities. But the pull you feel is telling you otherwise.$(br2)The pull is coming from those odd shrines in the $(item)Combat Simulation$() that are surrounded by vibrant mushrooms.$(br2)$(italic)You feel so close to getting it..$()"
+    },
+    {
+      "type": "text",
+      "text": "Since you have been given no new goal from the command center, you might as well test your crazy theory."
+    }
+  ]
+}

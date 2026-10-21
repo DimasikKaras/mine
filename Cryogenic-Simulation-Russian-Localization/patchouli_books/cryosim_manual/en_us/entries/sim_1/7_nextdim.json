@@ -1,0 +1,26 @@
+{
+  "name": "7: В неизведанное",
+  "icon": "contenttweaker:faux_steel",
+  "category": "sim_1",
+  "advancement": "triumph:cryosim/sim_1/hidden_book_advancement",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:ct_faux_steel",
+      "text": "You have almost completed the first $(item)Simulation$(), good job!$(br2)To enter the next one you need to go back to the $(item)Portal Hub$() and enter the last piece of $(item)Reinforced Steel$() into the$(br)$(item)Portal Structure$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "tconstruct:large_plate{Material: stone}",
+      "title": "Casting Large Plates",
+      "text": "To make the $(item)Steel Large Plate$() you're gonna have to make a $(item)Large Plate Cast$() first.$(br2)A $(item)Large Plate Cast$() can be made by pouring gold or aluminum brass on top of a $(item)Stone Large Plate$().$(br2)$(item)Stone Large Plates$() can be made in the $(item)Part Builder$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "immersiveengineering:tool",
+      "title": "Portal Activator",
+      "text": "The item that activates the $(item)Portal$() to the second $(item)Simulation$() is the $(item)Engineering Hammer$() you made earlier in this $(item)Simulation$()."
+    }
+  ]
+}

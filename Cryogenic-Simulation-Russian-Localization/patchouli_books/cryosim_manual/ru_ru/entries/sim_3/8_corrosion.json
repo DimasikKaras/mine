@@ -1,0 +1,59 @@
+{
+  "name": "8: Коррозия",
+  "icon": "contenttweaker:scorpion_venom_gland",
+  "category": "sim_3",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "We can repurpose the $(item)Red Rocks$() into a sturdy building brick by dropping it in some acid, then smelt it down after it has $(item)corroded$().$(br2)The only acid that is available to you right now is the $(item)Etching Acid$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "forge:bucketfilled{FluidName:etchacid}",
+      "text": "The $(item)Etching Acid$() is manufactured in the $(item)Pressure Chamber$() by combining $(item)Ammonium Nitrate$() with $(item)Venom Glands$() and $(item)Rotten Flesh$().$(br2)$(item)Venom Glands$() can be acquired by slaying the $(l:sim_3/inhabitants)Scorpions$() that live in the $(item)Arid Waste$()."
+    },
+    {
+      "type": "materials",
+      "title": "камера давления",
+      "item1": "pneumaticcraft:pressure_chamber_wall",
+      "item2": "pneumaticcraft:pressure_chamber_glass",
+      "item3": "pneumaticcraft:pressure_chamber_valve",
+      "item4": "pneumaticcraft:pressure_chamber_interface#2",
+      "notes": "A $(item)Pressure Chamber$() is a multiblock structure made up of a mix of the above blocks in a 3x3x3 or 5x5x5 configuration.$(br2)The chamber should be hollow."
+    },
+    {
+      "type": "text",
+      "text": "$(item)Walls$() and $(item)Glass$() makes up the walls of the cube and can be placed anywhere.$(br2)You will need atleast one $(item)Chamber Valve$() to import pressure into the chamber.$(br2)The $(item)Chamber Interface$() are used to import/export items out of the chamber and you will need atleast one of each to be able to craft in the chamber. The mode of the interface is decided by which way the block is facing."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:pn_pressure_chamber_wall",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve_shapeless_x1",
+      "title": " "
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pressure_chamber_interface",
+      "text": "Interfaces only accept to import/export by cabling, you cannot transfer things manually.$(br2)Make sure to filter the export interface so input items does not get exported as they enter the chamber.",
+      "title": "Chamber Interface"
+    },
+    {
+      "type": "fluid_to_item_transform",
+      "anchor": "grout",
+      "title": "A Corroded Rock",
+      "input1": "traverse:red_rock_cobblestone",
+      "output1": "minecraft:netherrack",
+      "fluid": "cryosim:textures/fluids/etching_acid_still.png",
+      "fluidTooltip": "Etching Acid",
+      "description1": "Drop some $(item)Red Rock Cobblestone$() in the $(item)Etching Acid$() to create $(item)Corroded Rock$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "minecraft:nether_brick",
+      "anchor": "bottles",
+      "text": "After smelting the now corroded rock it can be crafted into $(item)Nether Brick$(), which is one of the components you need to manufacture the $(item)Combat Simulation Portal Block$()."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "5: Сверхнагретые корпуса",
+  "icon": "mekanism:basicblock:8",
+  "category": "sim_5",
+  "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "The next technological advancement you need to concern yourself with is the $(item)Сверхнагретые корпуса$(). To make them, you will need $(item)Molten Superheated Miasma$() and a few $(item)Singularities$(). It is constructed inside the $(item)Enderium Infusion Basin$().$(br2)The superheated miasma is made from $(l:sim_4/resources/3_fluids)Miasma$() in a refinery that is heated to at least 1901c."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:singularities_compressor",
+      "text": "The singularities are constructed using a $(item)Compressor$(). The normal mode of output is that the compressor spits out the item in the world. But when connected to a AE2 Interface, the compressor will automatically output to the interface."
+    }
+  ]
+}

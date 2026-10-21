@@ -1,0 +1,27 @@
+{
+  "name": "7: Мрачное погребение",
+  "icon": "contenttweaker:bones_of_the_damned",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "materials_double_row",
+      "title": "Slate Ossuary",
+      "anchor": "slate_ossuary",
+      "item1": "midnight:nagrilite_block#8",
+      "item2": "midnight:tenebrum_block#8",
+      "item3": "bloodmagic:blood_rune:3#7",
+      "item4": "bloodmagic:blood_rune:7#2",
+      "item5": "minecraft:bone_block#3",
+      "item6": "bloodmagic:path:3#13",
+      "item7": "midnight:bogshroom_sporch#6",
+      "item8": "modularmagic:blocklifeessenceproviderinput",
+      "notes": "The portal block leading into the next Simulation require an item called $(item)Bones of the Damned$(). It's made in the $(item)Slate Ossuary$().$(br2)The required materials can be seen in $(l:portal_hub/4_schematica)Schematica$(). Above is a list of some key items required."
+    },
+    {
+      "type": "text",
+      "text": "The $(item)Slate Ossuary$() can make the first four tiers of $(item)Blood Magic$() slates using only $(item)LP$() from your blood network. (Even the fifth tier once you have an $(item)Archmage Blood Orb$()).$(br2)This is a great alternative to crafting slates in the $(item)Blood Altar$().$(br2)It requires less LP to produce each slate, and although it cannot be upgraded with $(item)Speed Runes$(), the $(item)Slate Ossuary$() default speed is nothing to scoff at."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Конечная цель",
+  "icon": "contenttweaker:atlas_project_item",
+  "category": "endgame",
+  "advancement": "triumph:cryosim/endgame_platform/built_platform",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "crafting",
+      "title": "Конечная цель",
+      "recipe": "crafttweaker:ct_project_item",
+      "text": "Your final task will be to construct the $(item)Black Hole Containment Vessel$().$(br2)When we finally acquire it our empire will thrive."
+    },
+    {
+      "type": "text",
+      "title": "Конечная цель",
+      "text": "Oh thats right, your motivation? Give us the vessel and we will send you the item that will allow you to leave the simulation.$(br2)We assume that by now you yearn to get your feet planted in reality.$(br2)So make a final push, you resourceful caveman!"
+    },
+    {
+      "type": "spotlight",
+      "title": "Конечная цель",
+      "item": "contenttweaker:nau_two_use_item",
+      "text": "As you might have noticed, there is a block at the back of the upper platform called the $(item)Nanobot Assembling Unit NAU-02$().$(br2)You will need to make another nanobot kit to create the exit portal."
+    }
+  ]
+}

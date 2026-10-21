@@ -1,0 +1,42 @@
+{
+  "name": "6: Метеоритный взлет",
+  "icon": "bloodmagic:inscription_tool:5",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "materials",
+      "title": "Метеоритный взлет",
+      "item1": "bloodmagic:ritual_diviner:1",
+      "item2": "bloodmagic:activation_crystal:1#1",
+      "item3": "botania:storage:3",
+      "item4": "bloodmagic:ritual_controller#1",
+      "item5": "bloodmagic:ritual_stone#100",
+      "notes": "Now that you have a $(item)Mana Pool$() and the ability to fill it with $(item)Mana$(), you can use the pool to produce magical resources like the $(item)Mana Diamond$().$(br2)We know that it's a resource that the $(item)Old Gods$() covet. You should sacrifice a $(item)Block of Mana Diamond$() and see what happens."
+    },
+    {
+      "type": "text",
+      "text": "Usually such a ritual will yield you a bounty of rare earth metals. With the $(item)Ritual Diviner (Dusk)$() you need to set the current ritual to $(item)Mark of the Falling Tower$().$(br2)This ritual in particular you want to keep away from your base of operations. It is very $(item)Volatile$().$(br2)This ritual consumes $(item)1 Million LP$() from your blood network."
+    },
+    {
+      "type": "text",
+      "text": "To start this advanced ritual, craft an $(item)Awakened Activation Crystal$() from the runes you made in the previous chapter.$(br2)After you have started the ritual, drop the $(item)Block of Mana Diamond$() on top the $(item)Master Ritual Stone$() in the center of the ritual, then head for the hills."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:dmlbm_digital_agonizer",
+      "text": "The $(item)Digital Agonizer$() can help you achieving the goal of charging a $(item)Master Blood Orb$() with the $(item)1 Million LP$() required for the ritual.$(br2)It fills linked $(item)Blood Altars$() with $(item)LP$() using $(item)Data Models$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "deepmoblearningbm:recipe2_altar_linker",
+      "text": "An $(item)Altar Linker$() can link the $(item)Digital Agonizer$() to an altar. Only one $(item)Digital Agonizer$() can be linked to each altar."
+    },
+    {
+      "type": "text",
+      "title": "LP Alternatives",
+      "text": "If you want a more sinister alternative to the $(item)Digital Agonizer$(), you can use a $(item)Well of Suffering$() ritual instead.$(br2)You should be getting used to getting your hands dirty though. There's some unsavory work coming your way"
+    }
+  ]
+}

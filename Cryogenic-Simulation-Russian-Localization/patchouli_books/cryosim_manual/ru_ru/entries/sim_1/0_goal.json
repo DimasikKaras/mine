@@ -1,0 +1,20 @@
+{
+  "name": "Цель симуляции",
+  "icon": "immersiveengineering:stone_device:2",
+  "category": "sim_1",
+  "advancement": "triumph:cryosim/sim_1/hidden_book_advancement",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Цель первой симуляции — произвести$(br)$(l:sim_1/6_steel)Steel$().$(br2)Задача может показаться сложной, но не волнуйтесь: данное руководство проведет вас через весь процесс."
+    },
+    {
+      "type": "spotlight",
+      "item": "immersiveengineering:stone_device:2",
+      "title": "сталь",
+      "text": "$(l:sim_1/6_steel)Steel$() можно произвести с помощью $(item)Improved Blast Furnace$(), поэтому большинство задач в этой главе приблизят вас к его созданию."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "3: Сафари на монстров",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "text",
+      "title": "Mob Spawning",
+      "text": "Sadly, you will have to put in a little bit more effort to fill your data model roster.$(br2)Some monsters are known to you, but out of your reach.$(br2)Set up a $(item)Cursed Earth Farm$() to produce $(item)Essence$(), and use that to convert $(item)Skeletons$() into $(item)Wither Skeletons$()."
+    },
+    {
+      "type": "crafting",
+      "title": "Mob Spawning",
+      "recipe": "crafttweaker:if_mob_imprisonment_tool",
+      "text": "The $(item)Mob Imprisonment Tool$() lets you capture a monster in the world, once captured you will be able to spawn it in a $(item)Mob Duplicator$()."
+    },
+    {
+      "type": "crafting",
+      "title": "Mob Spawning",
+      "recipe": "crafttweaker:if_mob_duplicator",
+      "text": "The $(item)Mob Duplicator$() can spawn monsters when it is supplied with essence and a $(item)Mob Imprisonment Tool$() which holds a monster.$(br2)$(item)Essence$() can be acquired by slaying monsters with a $(item)Mob Crusher$()."
+    },
+    {
+      "type": "crafting",
+      "title": "Mob Slaying",
+      "recipe": "crafttweaker:industrialforegoing_mob_relocator_thermal_modified",
+      "text": "The $(item)Mob Crusher$() can slay monsters, pick up the loot and extract all the essence out of their being.$(br2)Can be upgrades with range upgrades"
+    },
+    {
+      "type": "spotlight",
+      "title": "Cursed Earth",
+      "item": "extrautils2:cursedearth",
+      "text": "$(item)Cursed Earth$() spawns monsters in the world without the use of a spawner, it aggressively spawns monster when the $(item)Cursed Earth$() is in low light level conditions.$(br2)Produced by infusing grass with witchwater"
+    },
+    {
+      "type": "spotlight",
+      "item": "forge:bucketfilled{FluidName:witchwater}",
+      "title": "Witchwater",
+      "text": "This $(item)Toxic$() concoction can turn certain beings into their $(item)Corrupted Counterparts$(). $(br2)You can find the full list of corruptable beings $(l:https://ex-nihilo-minecraft.fandom.com/wiki/Witch_Water#Applications)here$().$(br2)To acquire $(item)Pristine визер-скелет Matter$(), you will have to spawn regular skeletons into witchwater to turn them into $(item)Wither Skeletons$()."
+    },
+    {
+      "type": "materials",
+      "item1": "openblocks:xp_drain",
+      "item2": "forge:bucketfilled{FluidName: \"xpjuice\", Amount: 1000}",
+      "item3": "industrialforegoing:fluiddictionary_converter",
+      "title": "Experience = Essence",
+      "notes": "If you have $(l:sim_1/__late_dimension_tips#storing_xp)saved up some experience$(), the cursed earth farm might not be the best option to move on quickly.$(br2)Using a $(item)Fluid Dictionary Converter$() you can convert your hard earned experience into essence.$(br2)Then use that essence to spawn in $(item)Skeletons$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "deepmoblearning:pristine_matter_ghast",
+      "title": "Ghasts",
+      "text": "You will also need to capture a few $(item)Squids$() with a $(item)Mob Imprisonment Tool$() and dropping them in $(item)Witchwater$() to turn them into $(item)Ghasts$().$(br2)You realise that the $(item)Mob Duplicator$() seems a bit overkill for this task. Since you only need to capture six squids for the six ghasts needed to train the $(item)Ghast Data Model$()."
+    }
+  ]
+}

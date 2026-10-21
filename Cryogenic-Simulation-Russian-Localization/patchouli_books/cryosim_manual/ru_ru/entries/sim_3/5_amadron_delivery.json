@@ -1,0 +1,28 @@
+{
+  "name": "5: Стокгольмский синдром",
+  "icon": "pneumaticcraft:amadron_tablet",
+  "category": "sim_3",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Okay, my little test subject, time to show us what you've been up to down there... What are you doing? Stop bashing those rocks together and listen.$(br2)The task after this one is all about infrastructure, but before we can teach you about logistics you need to $(item)send up$() some samples of the ores you acquired at the $(l:sim_3/resources/1_minerals_and_ores#barrier)Barrier$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:amadron_tablet",
+      "text": "The $(item)Amadron Tablet$() can be used to exchange items & liquids with us.$(br2)To set a Pickup/Dropoff location you will $(item)SHIFT + Right Click$() an inventory or tank."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:pn_charging_station",
+      "text": "The $(item)Charging Station$() can charge items with the $(item)Pressure$() that is being supplied from external sources.$(br2)Use it to charge the $(item)Amadron Tablet$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "gamestagebooks:ae2_stage",
+      "text": "We will give you the $(l:sim_3/knowledge/0_ae2)Logistics Knowledge$() after you send us some $(item)Charged Certus Quartz$().$(br2)If you do this for us we might even stop it with the caveman quips! Wouldn't that be nice?"
+    }
+  ]
+}

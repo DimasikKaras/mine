@@ -1,0 +1,67 @@
+{
+  "name": "2: Молоко червя... Мерзость?!",
+  "icon": "forge:bucketfilled{FluidName:nutrient_wyrm_milk}",
+  "category": "sim_5",
+  "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Say it with me. $(item)Wyrm$(). $(item)Milk$().$(br2)Yes yes. It is weird we know. It will all make sense when you get to experience the wonder and might of the $(item)World Wyrms$().$(br2)For now, let us just focus on the task at hand.$(br)$(item)Wyrm Milk$() is made out of 4 vital components. 3 of them being liquids, and one of them being a solid."
+    },
+    {
+      "type": "materials",
+      "title": "молоко червя Components",
+      "item1": "forge:bucketfilled{FluidName:growtein}",
+      "item2": "forge:bucketfilled{FluidName:pure_calcium}",
+      "item3": "forge:bucketfilled{FluidName: subterranean_nutrient_distillation, Amount: 1000}",
+      "item4": "thermalfoundation:material:865#32",
+      "notes": "$(item)Growtein$().$(br)$(item)Pure Calcium$().$(br)$(item)Subterranean Nutrient Distillation$() (or SND for short).$(br2)In addition to these 3 liquids. You will also need a metric shit-ton of $(item)Rich Slag$(). You might currently be short on $(item)Rich Slag$() supply, but after you have your very own $(item)World Wyrm$(), you won't be."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:eio_vat",
+      "text": "The new alloys you constructed from $(item)Silicon$() has enabled you to craft some new fancy machines.$(br2)$(item)The Vat$() can create a myriad of new liquids."
+    },
+    {
+      "type": "spotlight",
+      "title": "Pure Calcium",
+      "item": "forge:bucketfilled{FluidName:pure_calcium}",
+      "text": "Made by distilling the $(item)Softened Quicklime$() from the $(item)Silicon$() production.$(br2)When distilled in a $(item)Vat$() with $(item)Calcified Mineral Soil$() and $(item)Life Essence Marrow$(), you will start to produce $(item)Pure Calcium$().$(br2)$(item)Calcified Mineral Soil$() is made from bone mealing $(item)Moist Mineral Soil$()."
+    },
+    {
+      "type": "spotlight",
+      "title": "Growtein",
+      "item": "forge:bucketfilled{FluidName:growtein}",
+      "text": "$(item)Protein$() is very important for most living beings, especially the $(item)World Wyrms$(). You can produce protein from a $(item)Protein Reactor$().$(br2)Of course $(item)Protein$() does not just appear from thin air and electricity, so you will have to supply it with some type of meat/flesh.$(br)We recommend using fish."
+    },
+    {
+      "type": "spotlight",
+      "title": "Growtein",
+      "item": "contenttweaker:nature_essence",
+      "text": "Hopefully you now have several of the $(item)Protein Reactors$(), and you are using speed/energy upgrades.$(br2)Once you have protein, you can turn it into Growtein by distilling it in a Vat with some $(item)Primal Nature$().$(br2)The growtein will aid the wyrms growth exponentially!"
+    },
+    {
+      "type": "spotlight",
+      "title": "SND, Step 1",
+      "item": "forge:bucketfilled{FluidName: nutrient_distillation}",
+      "text": "$(item)Subterranean Nutrient Distillation$() is a multi-stage $(item)Vat$() process.$(br2)You start by using the $(l:sim_5/resources/2_deep_substrate_water)mineral rich water$() you found in the $(item)Mineral Quarry$() pocket dimension with some $(item)Dragon Nests$() and $(item)Mushrooms$().$(br)This turns the $(item)Глубоководный субстрат$() into $(item)Nutrient Distillation$()."
+    },
+    {
+      "type": "spotlight",
+      "title": "SND, Step 2",
+      "item": "forge:bucketfilled{FluidName:subterranean_nutrient_distillation}",
+      "text": "On the 2nd pass you infuse the $(item)Nutrient Distillation$() with $(l:sim_5/resources/1_minerals_and_ores#subore)Fine Kalthrite Coating$() and $(item)Alien Subterranean Dust$() turning it into the SND.$(br2)The $(item)Alien Subterranean Dust$() is made from the $(l:sim_4/resources/2_ores#rouxecrystal)Rouxecrystals$() you found in the midnight pocket dimension, infused with $(item)Resonant Ender$()."
+    },
+    {
+      "type": "materials",
+      "title": "Fluid Mixing",
+      "item1": "modularmachinery:blockcontroller",
+      "item2": "enderio:block_alloy:6#4",
+      "item3": "thermalfoundation:glass:6#3",
+      "item4": "modularmachinery:blockfluidinputhatch:7#3",
+      "anchor": "darksteelmixer",
+      "notes": "Mixing these 3 fluids together is no small feat.$(br2)You will need to construct a $(item)Dark Steel Fluid Mixer$() that is capable of mixing together the $(item)Wyrm Milk$().$(br2)Pull up $(l:portal_hub/4_schematica)Schematica$() to see the bill of materials. We have listed the important ones at the top of the page."
+    }
+  ]
+}

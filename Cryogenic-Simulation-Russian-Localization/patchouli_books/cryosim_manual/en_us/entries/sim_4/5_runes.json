@@ -1,0 +1,64 @@
+{
+  "name": "5: Магия ботаники",
+  "icon": "botania:rune:13",
+  "category": "sim_4",
+  "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:botania_runic_altar",
+      "text": "Imbuing the elements into runes of living rock is necessary to advance further into the field of magical botany.$(br2)$(item)Runic Altars$() produces $(item)Runes$() from $(item)Living Rock$(), $(item)Mana$() and other materials."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:botania_mana_spreader",
+      "text": "$(item)Mana Spreaders$() can be used to move $(item)Mana$() around. It can feed mana into other pools, or magical botanical constructs like the $(item)Runic Altar$().$(br2)Should be placed next to a $(item)Mana Pool$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "botania:wands/twigwand_white_white",
+      "text": "This wand can be used to direct the flow of mana.$(br2)$(item)Shift Right-Click$() a spreader, then $(item)Shift Right-Click$() whatever entity you want the spreader to direct mana to."
+    },
+    {
+      "type": "text",
+      "title": "Rune Crafting",
+      "text": "In addition to the materials shown in $(item)JEI$() for a rune, for example the $(item)Rune of Water$(), you will also need to drop a piece of $(item)Living Rock$() on top of the altar.$(br2)The craft is finalized by having a $(item)Wand of the Forest$() right clicking the altar. This can be automated by $(item)Mechanical Users$().$(br2)Ingredients can be inserted by right click, or dropped on top"
+    },
+    {
+      "type": "crafting",
+      "recipe": "botania:terraplate",
+      "title": "Terrasteel",
+      "text": "You can use some of your newly crafted runes to make a $(item)Terrestrial Agglomeration Plate$().$(br2)Part of a magical botany multiblock that produces $(item)Terrasteel$(). It can be found in $(l:portal_hub/4_schematica)Схематика (Schematica)$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:botania_spark",
+      "text": "$(item)Mana$() is most easily fed into the plate with a $(item)Spark$() placed on top of it.$(br2)The $(item)Spark$() will draw mana from nearby $(item)Mana Pools$() if said pools also have a spark on them."
+    },
+    {
+      "type": "materials",
+      "title": "Terrasteel Materials",
+      "item1": "botania:manaresource",
+      "item2": "botania:manaresource:2",
+      "item3": "botania:manaresource:1",
+      "notes": "To craft $(item)Terrasteel$(), place the above ingredients on top of the plate.$(br2)This structure will consume half of a $(item)Mana Pool$() worth of mana for every piece of $(item)Terrasteel$()."
+    },
+    {
+      "type": "text",
+      "title": "Elven Resources",
+      "text": "Once you have made $(item)Terrasteel$(). You should look into the $(item)Lexica Botania$() chapter called $(item)The Portal to Alfheim$().$(br2)We've also prepared a $(l:portal_hub/4_schematica)Схематика (Schematica)$() schematic for you, but we think this entry is worth reading.$(br2)Feeding the necessary $(item)Mana$() to open the Portal initially into the connected $(item)Mana Pools$() should be done with mana tablets for now."
+    },
+    {
+      "type": "crafting",
+      "title": "Spark Augments",
+      "recipe": "botania:sparkupgrade_2",
+      "text": "Since the portal require a constant supply of mana, using a mana tablet is not a good long term solution.$(br2)Putting a $(item)Recessive Spark$() on your \"feeder\" mana pool will automatically feed nearby pools that are not filled."
+    },
+    {
+      "type": "text",
+      "title": "Spark Augments",
+      "text": "Buffer mana pools that store mana for later can have a spark on them without any augment.$(br2)Pools which will use mana, for example pools powering the alfheim portal or pools connected to mana spreaders should have a spark with a $(item)Spark Augment: Dominant$()."
+    }
+  ]
+}

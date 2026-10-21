@@ -1,0 +1,46 @@
+{
+  "name": "4: Сила звёзд",
+  "icon": "astralsorcery:blockaltar",
+  "category": "sim_2",
+  "advancement": "triumph:cryosim/sim_2/hidden_book_advancement",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:as_resonating_wand",
+      "anchor": "wand",
+      "text": "A Resonating wand is used to start the crafting process in $(item)Astral Sorcery$() crafting tables.$(br2)Required knowledge:$(br)$(l:sim_2/knowledge/1_as)Лунное озарение$()"
+    },
+    {
+      "type": "fluid_to_item_transform",
+      "anchor": "luminoustable",
+      "title": "светящийся верстак",
+      "input1": "minecraft:crafting_table",
+      "output1": "astralsorcery:blockaltar",
+      "fluid": "cryosim:textures/fluids/starlight.png",
+      "fluidTooltip": "Liquid Starlight",
+      "description1": "Drop a $(item)Crafting Table$() into $(l:sim_2/resources/0_surface_level)Liquid Starlight$() to create the $(item)Luminous Crafting Table$().$(br2)This workbench can harness $(item)Starlight$() to craft items with Magical properties.$(br2)Later workbench $(item)Tiers$() require a multiblock structure.$(br)(Can be found in $(l:portal_hub/4_schematica)Schematica$())"
+    },
+    {
+      "type": "spotlight",
+      "item": "astralsorcery:blockwell",
+      "anchor": "lightwell",
+      "text": "The $(item)Lightwell$() can draw out the $(item)Liquid Starlight$() that collects in $(l:sim_2/resources/1_minerals_and_ores)Aquamarines$() and $(l:sim_2/resources/1_minerals_and_ores)Rock Crystals$().$(br2)You will need to create a fair amount of $(item)Liquid Starlight$() to progress in this $(item)Simulation$()."
+    },
+    {
+      "type": "spotlight",
+      "item": "astralsorcery:itemlinkingtool",
+      "text": "The $(item)Linking Tool$() can redirect $(item)Starlight$() in $(item)Floating Crystals$().$(br2)A $(item)Starlight Crafting Altar$() multiblock is necessary to craft this item. You may need a $(item)Spectral Relay Structure$() feeding your altar to cover the starlight requirement.$(br)$(item)Spectral Relays$() are covered under Exploration in the Astral Tome."
+    },
+    {
+      "type": "spotlight",
+      "item": "astralsorcery:blockcustomore:1",
+      "anchor": "starmetal",
+      "text": "This ore is absolutely packed with $(item)Star$() power. It's created by pointing a concetrated beam of starlight towards an $(item)Iron Ore Block$().$(br2)You can find $(item)Floating Crystals$() in the larger shrines found on the $(item)Lunar Plane$(), use a $(item)Linking Tool$() to direct their natural $(item)Starlight$()."
+    },
+    {
+      "type": "text",
+      "text": "Do not forget to remove the ceiling of the large shrine.$(br2)The crystal needs a view of the sky to craft the $(item)Starmetal Ore$().$(br2)(If all conditions are met and it still does not work, $(item)restart$() the game)$(br2)Works faster during the nighttime. Consider setting up a $(l:sim_2/helpful_stuff#night_ritual)Night Ritual$() by the crystal."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Поверхностные ресурсы",
+  "icon": "traverse:red_rock",
+  "category": "sim_3/resources",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "traverse:red_rock",
+      "text": "A mineral rich rock, can only be found in the $(item)Canyons$() of the $(item)Arid Waste$().$(br2)Processed into $(item)Quartz$(), $(item)Niter$(), $(item)Sulfur$(), $(item)Prismarine Shards$() and $(item)Blaze Powder$() as described in the $(l:sim_3/1_minerals)1st task$()."
+    }
+  ]
+}

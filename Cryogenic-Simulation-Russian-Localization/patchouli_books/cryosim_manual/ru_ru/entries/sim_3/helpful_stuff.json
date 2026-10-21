@@ -1,0 +1,104 @@
+{
+  "name": "Полезные мелочи (QoL)",
+  "icon": "danknull:dank_null_4",
+  "category": "sim_3",
+  "advancement": "triumph:cryosim/sim_3/hidden_book_advancement",
+  "priority": true,
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "text",
+      "text": "A few quality of life things that can be nice to get during the Arid Waste simulation."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:danknull_tier5",
+      "text": "Larger dank null storage? Yes please. Available later on in this $(item)simulation$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftools:block_protector",
+      "anchor": "protector",
+      "text": "When supplied with enough $(item)power$() this nifty gadget can protect nearby blocks from $(item)explosions$(), don't forget to protect the protector.$(br2)You may want more than one protector to spread the load."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:if_stonework_factory",
+      "title": "Stonework Factory",
+      "text": "The $(item)Stonework Factory$() can produce Cobblestone, Stone, Gravel and Sand when supplied with $(item)power$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:enderstorage_chest",
+      "text": "Ender Chests $(item)shares$() inventory with other Ender Chests with the same colorcode.$(br2)Use dyes on the protruding parts on top of the chest to change their color."
+    },
+    {
+      "type": "text",
+      "text": "This chest can be used to $(item)transport$() items across simulations. For example if you put items in $(item)Chest A$() that is located in the Arid Waste, you can then access those items from $(item)Chest B$() that is located on the Lunar Plane.$(br2)Use a $(item)Diamond$() on the chest lock to make the chest private."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:enderstorage_tank",
+      "text": "The $(item)Ender Tank$() function the same way as the $(item)Ender Chests$(), but instead of holding items it holds liquids."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:enderstorage_pouch",
+      "text": "The $(item)Ender Pouch$() can be linked to an $(item)Ender Chest$() so you can access the contents of that chest from anywhere.$(br2)Perfect for $(item)dumping$() items into while out hiking or whatever it is you cavemen do."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:industrialforegoing_dye_mixer_thermal_modified",
+      "text": "The $(item)Dye Mixer$() can produce various dyes when supplied with red, green, and blue dye.$(br2)The produced dye is decided by the color of the $(item)Pristine Ocular Lens$() inside. You can chisel the lens into different colors."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:eio_item_conduit",
+      "title": "Conduits",
+      "anchor": "conduits",
+      "text": "Your ducts are working great but wait until you give this bad boy a spin. $(item)Conduits$() can share the same blockspace with other conduits, so for example an energy conduit can share a blockspace with an item conduit. Nuts!"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:eio_fluid_conduit_t1",
+      "recipe2": "crafttweaker:eio_energy_conduit_t1",
+      "title": " "
+    },
+    {
+      "type": "crafting",
+      "recipe": "enderio:filter_counting",
+      "text": "While the $(item)Filter$() and the $(item)Advanced Item Filter$() are useful in their own right, the $(item)Limited Item Filter$() is even better. It can limit the number of items in an inventory, preventing overflow when several different items need to be restocked.",
+      "title": "Advanced Item Filter"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:rft_powercell",
+      "text": "Two connected powercells can share energy across $(item)simulations$() when supplied with matching $(item)Powercell Cards$().$(br2)$(item)Powercells$() store a respectable amount of energy. They can also charge items with RF."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:rft_powercell_card",
+      "text": "When 2 $(item)Powercells$() share a $(item)Powercell Card$() with the same link id they will effectively be a cross simulation power multiblock.$(br2)(Or a cross chunk power multiblock if you are very lazy)"
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:bg_buildingtool",
+      "text": "The building tool is a versatile gadget that aid you in building stuff.$(br2)It's much more efficient at building for example bases compared to building by hand, or just using a $(l:sim_1/helpful_stuff#buildingwands)Building Wand$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:bg_exchangertool",
+      "text": "The $(item)Exchanging Gadget$() aids you with replacing multiple blocks at a time.$(br2)For example if you fancied a different block for the flooring in your base, this nifty gadget would make quick work of that task."
+    },
+    {
+      "type": "crafting",
+      "recipe": "crafttweaker:rft_machine_infuser",
+      "text": "The $(item)Machine Infuser$() can infuse some of your other machines. Most notable the $(item)Builder$(), which will even further increase your resource acquisition rate.$(br2)This process consumes $(item)Dimensional Shards$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "supersoundmuffler:sound_muffler_bauble",
+      "text": "The clanking, wheezing and whirring of some of the machines you have built can understandably cause you some distress.$(br)The $(item)Sound Muffler$() will allow you to filter out some of the unwanted noise."
+    }
+  ]
+}

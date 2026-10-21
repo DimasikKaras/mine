@@ -1,0 +1,12 @@
+{
+  "name": "Mana Production",
+  "icon": "botania:pool:1",
+  "category": "videos",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Это видео рассказывает о том, how you can fill a \"mana battery\" from a looping tablet fill setup.$(br2)$(l:https://www.youtube.com/watch?v=lHoNNWeL8nU)Ссылка на видео$()"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Загадочные башни",
+  "icon": "chisel:voidstone:6",
+  "category": "sim_5",
+  "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+  "priority": true,
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "You found a tower with cryptic messages referring to some deity called $(item)Sanguis Nihil$()?$(br2)I assure you those towers are not supposed to appear.$(br2)I asssume its some sort of joke made by our R&D department. They arent used to socialising with others, so their jokes are $(italic)really really$() terrible."
+    },
+    {
+      "type": "text",
+      "text": "Try to not read into it.$(br2)$(italic)Really, it is much better if you put it out of your mind.$(br2)You have a Nanobot kit that is not gonna build itself."
+    }
+  ]
+}
