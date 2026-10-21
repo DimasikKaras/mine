@@ -1,0 +1,35 @@
+
+{
+  "ID": 68,
+  "Name": "obscured_peaks",
+  "Resource Location": "midnight:obscured_peaks",
+  "Class": "com.mushroom.midnight.common.biome.surface.SurfaceBiome",
+  "Root Height": 6.0,
+  "Height Variation": 0.5,
+  "Top Block": "midnight:nightstone",
+  "Filler Block": "midnight:nightstone",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.5,
+  "Humidity": 0.5,
+  "Water Tint": 16777215,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SPOOKY",
+    "SPARSE",
+    "MOUNTAIN",
+    "HILLS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

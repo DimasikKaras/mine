@@ -1,0 +1,40 @@
+{
+    "name": "1: Silicon Production",
+    "icon": "enderio:item_material:5",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "1: Silicon Production",
+            "item": "enderio:item_material:5",
+            "text": "I hope you are not yet tired of making plastic-like materials. This next one is called $(item)Silicon$(). And is made by heating up $(item)Semi-Liquified Sand Goop$() in a refinery that is at least 1901c degrees.$(br2)To get this underway, you need a refinery that is 2 blocks tall. It needs to be connected to at least one $(item)Vortex Tube$()."
+        },
+        {
+            "type": "text",
+            "text": "However, this $(item)Vortex Tube$() needs to have at least 20 bars of pressure to produce the kind of heat that we are looking for. We mentioned how to get started with high-pressure resistant $(l:sim_4/1_advanced_pcb#assemblycontroller)previously$().$(br2)Once you have an $(item)Assembly Controller$() set up with both a Drill & Laser, you can turn $(item)Blocks of Compressed Iron$() into $(item)Pressure Chamber Valves$(), then into $(item)Advanced Pressure Tubes$().$(br2)This only works when using the Drill & Laser program."
+        },
+        {
+            "type": "spotlight",
+            "title": "1: Silicon Production",
+            "item": "forge:bucketfilled{FluidName: silica, Amount: 1000}",
+            "text": "The $(item)Molten Silica$() is then cooled down and distilled into $(item)Silicon$() and $(item)Liquifacted Coal$().$(br2)You should also keep all of the $(item)Softened Quicklime$() which is a by-product of heating the $(item)Semi-Liquified Sand Goop$().$(br2)It will be essential later."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:eio_machine_chassis",
+            "title": "New Metal Alloys",
+            "text": "$(item)Silicon$() unlock a couple of new alloyed metals that allow you to construct a new tier of chassis.$(br2)(Which is lucky, because we will need them immediately)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:mekanism_metallurgic_infuser",
+            "recipe2": "crafttweaker:mekanism_enrichment_chamber"
+        },
+        {
+            "type": "text",
+            "text": "The new alloys also unlocks a few $(item)Mekanism$() machines. But for anything that is a bit more advanced will require a $(item)Superheated Frame$().$(br2)Getting set up with a $(item)Metallurgic Infuser$() and an $(item)Enrichment Chamber$() at this point will not hurt though."
+        }
+    ]
+}

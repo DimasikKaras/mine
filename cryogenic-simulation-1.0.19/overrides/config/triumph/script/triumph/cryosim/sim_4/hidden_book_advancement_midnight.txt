@@ -1,0 +1,9 @@
+addParent("triumph:cryosim/sim_4/visit")
+alwaysHidden()
+setAnnounceToChat(false)
+setShowToast(false)
+setPos(-99,-99)
+setTitle("Hidden advancement, used for patchouli book")
+
+criteria = addCriteria("impossible_yep_yep_yep_sim4_midnight", "triumph:player_break_block")
+criteria.setBlock(<minecraft:bedrock,ore:railBed,meta:0,count:1>)

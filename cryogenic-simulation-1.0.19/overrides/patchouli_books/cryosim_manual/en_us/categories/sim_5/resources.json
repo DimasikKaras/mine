@@ -1,0 +1,8 @@
+{
+    "name": "Raw Resources",
+    "description": "This chapter covers information about the resources you will find on the $(item)Mineral Quarry Simulation$().",
+    "icon": "mekanism:saltblock",
+    "parent": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 0
+}

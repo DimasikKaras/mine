@@ -1,0 +1,48 @@
+{
+    "name": "3: Wyrm Ascension",
+    "icon": "contenttweaker:tunneling_world_wyrm",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "World Wyrms",
+            "item": "contenttweaker:tunneling_world_wyrm",
+            "text": "$(item)World Wyrms$() are majestic beings that, when trained properly, tunnel deep into the ground to retrieve ores.$(br2)In the past we have just let them access the deep depths of our own planet to find ores we normally don't get to. But since we found $(item)Pocket Dimensions$(), we can train them to go there instead."
+        },
+        {
+            "type": "materials_double_row",
+            "title": "Wyrm Burrow",
+            "item1": "modularmachinery:blockcontroller",
+            "item2": "enderio:block_alloy:6#19",
+            "item3": "chisel:energizedvoidstone#8",
+            "item4": "chisel:voidstonerunic:9#4",
+            "item5": "bloodmagic:ritual_stone#16",
+            "item6": "extrautils2:compressedcobblestone:2#12",
+            "item7": "extrautils2:ineffableglass:3#24",
+            "item8": "tconstruct:soil:4#24",
+            "item9": "midnight:bogshroom_sporch#4",
+            "item10": "immersiveengineering:metal_decoration1#11",
+            "notes": "The $(item)Transdimensional Wyrm Burrow$() is a safe base of operations for a $(item)World Wyrm$().$(br)It is where it will deposit all ores it finds.$(br2)It's also a place of rest and where the $(item)Wyrm$() comes to drink the $(item)Wyrm Milk$()."
+        },
+        {
+            "type": "text",
+            "text": "Pull up $(l:portal_hub/4_schematica)Schematica$() to see the bill of materials for this multiblock structure.$(br2)You should build 2 burrows at once if possible.$(br2)Once the $(item)Transdimensional Wyrm Burrow$() is complete, you can start the rigourous process of training larvae for ascension.$(br2)Making a larvae ready for ascension takes a lot of $(item)Wyrm Milk$(), you will probably need 20-30 buckets worth for your first wyrm."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:crystal_bug_larvae",
+            "text": "The larvae that could even remotely be worthy of being ascended into a $(item)World Wyrm$() is found in the $(item)Midnight Pocket Dimension$().$(br2)They can be obtained by slaying $(l:sim_4/resources/1_inhabitants#crystalbug)crystal bugs$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:sacrifice_clump{ench: [{lvl: 1, id: 14}], madeInChina: 1}",
+            "text": "Before we can bring a $(item)World Wyrm$() into this world we will need some help from our friends the Elves.$(br2)Binding a $(item)Nightstag$() soul with a $(item)Gold Horse Armor$() will make it ready for sacrifice.$(br2)Collecting the $(item)Nighstag Souls$() can be automated with a $(item)Mob Imprisonment Tool$()."
+        },
+        {
+            "type": "text",
+            "text": "After the $(item)Sacrificial Nightstag$() has been sacrificed by the Elves you will have to anoint it with a $(item)Starlight Infuser$().$(br2)Once you have the anointed remains you can birth your first $(item)World Wyrm$() in the $(item)Slate Ossuary$()."
+        }
+    ]
+}

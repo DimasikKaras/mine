@@ -1,0 +1,15 @@
+{
+    "name": "Deep Substrate Water",
+    "icon": "forge:bucketfilled{FluidName:deep_substrate_water}",
+    "category": "sim_5/resources",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "title": "Deep Substrate Water",
+            "item": "forge:bucketfilled{FluidName:deep_substrate_water}",
+            "text": "At world height level 10 you can find a vast cave lake.$(br2)It is not uncommon to travel thousands of meters at this level and still finding that the entire lake is connected.$(br2)This mineral rich water will prove very useful to you."
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "The Midnight",
+    "description": "$(primary)XC-443$(), you seem to have wound up in some form of pocket dimension that's somehow outside of our simulations.$(br2)Internally, we've named it $(item)The Midnight$() for now. We do not have a complete picture, but collected the information from our initial scan here.",
+    "icon": "midnight:miasma_surface",
+    "parent": "sim_4",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+    "sortnum": 0
+}

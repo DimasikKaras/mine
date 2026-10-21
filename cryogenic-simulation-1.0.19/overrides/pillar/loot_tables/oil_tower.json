@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "rolls": {
+        "min": 4.0,
+        "max": 6.0
+      },
+      "entries": [
+        {
+          "entryName": "reception coils",
+          "name": "thermalfoundation:material",
+          "weight": 5,
+          "type": "item",
+          "functions": [
+            {
+              "data": 515,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1,
+                "max": 4
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "pistons",
+          "name": "minecraft:piston",
+          "weight": 5,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 7,
+                "max": 11
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "compressed iron ingots",
+          "name": "pneumaticcraft:ingot_iron_compressed",
+          "weight": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 11.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "infused diamonds",
+          "name": "rftools:infused_diamond",
+          "weight": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3,
+                "max": 6
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "entryName": "sanguine blocks",
+          "name": "contenttweaker:sub_block_holder_0",
+          "weight": 2,
+          "type": "item"
+        },
+        {
+          "entryName": "that purple metal",
+          "name": "tconstruct:metal",
+          "weight": 2,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2,
+              "function": "minecraft:set_data"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

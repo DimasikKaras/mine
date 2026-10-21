@@ -1,0 +1,1 @@
+give @p simple_trophies:trophy 1 0 {TrophyItem:{id:"contenttweaker:endgame_platform_unlocker",Count:1b,Damage:0s},TrophyName:"Assembled the upper platform",TrophyColorRed:12,TrophyColorGreen:110,TrophyColorBlue:220,TrophyVariant:"neon"}

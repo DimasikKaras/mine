@@ -1,0 +1,40 @@
+{
+    "name": "Minerals and Ores",
+    "icon": "midnight:bloomcrystal",
+    "category": "sim_4/resources",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "midnight:bloomcrystal",
+            "text": "Found on the surface level, primarily in the $(item)Crystal Spires$() biome.$(br2)There is no immediate use for it, but we believe it has the compounds to be useful in many chemical processes down the road."
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:tenebrum_ore",
+            "text": "A very sturdy metal.$(br2)Our statistics is a rough estimate right now, but early scans indicate it's found between world height $(primary)0-55$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:dark_pearl_ore",
+            "text": "Large cluster of $(items)Geodes$(). The dropped $(item)Geodes$() can be broken against hard surfaces to be turned into $(item)Dark Pearls$(). Sometimes the ores also drop $(item)Dark Pearls$().$(br2)The most common deposit in this pocket dimension.$(br2)Early scans indicate it's found between world height $(primary)0-55$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:nagrilite_ore",
+            "text": "A Gnarly ore. Seem fit for ritualistic purposes.$(br2)Early scans indicate it's found between world height $(primary)0-25$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:ebonys_ore",
+            "text": "We do not know what elements on the periodic table that $(item)Ebonite$() consist of.$(br2)Early scans indicate it's found between world height $(primary)0-25$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:rouxe",
+            "anchor": "rouxecrystal",
+            "text": "Found in the deep caves of the pocket dimension.$(br2)There is no immediate use for it, but we believe it has the compounds to be useful in many chemical processes down the road."
+        }
+    ]
+}

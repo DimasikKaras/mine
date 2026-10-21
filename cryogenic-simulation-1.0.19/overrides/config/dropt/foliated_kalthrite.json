@@ -1,0 +1,91 @@
+{
+  "rules": [
+    {
+      "match": {
+        "drops": {
+          "drops": [
+            "contenttweaker:deep_substrate_ore"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "contenttweaker:foliated_kalthrite"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 10
+            },
+            "fortuneLevelRequired": 1
+          },
+          "item": {
+            "items": [
+              "contenttweaker:foliated_kalthrite"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 100
+            },
+            "fortuneLevelRequired": 2
+          },
+          "item": {
+            "items": [
+              "contenttweaker:foliated_kalthrite"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 3
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1000
+            },
+            "fortuneLevelRequired": 3
+          },
+          "item": {
+            "items": [
+              "contenttweaker:foliated_kalthrite"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 5
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 1001
+            },
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "contenttweaker:deep_substrate_ore"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

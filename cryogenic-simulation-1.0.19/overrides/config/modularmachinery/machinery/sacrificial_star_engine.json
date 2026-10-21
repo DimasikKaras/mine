@@ -1,0 +1,2266 @@
+{
+    "registryname": "star_engine",
+    "localizedname": "Sacrificial Star Engine",
+    "color": "171C31",
+    "parts": [
+        {
+            "x": -7,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -14,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -15,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_core@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -14,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -13,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_core@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -17,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -16,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -11,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -1,
+            "nbt": {"id":"openblocks:tank","tank":{"FluidName":"star_blood","Amount":"4000"}},
+            "elements": [
+                "openblocks:tank@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -1,
+            "nbt": {"id":"openblocks:tank","tank":{"FluidName":"star_blood","Amount":"4000"}},
+            "elements": [
+                "openblocks:tank@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -16,
+            "nbt": {"id":"openblocks:tank","tank":{"FluidName":"star_blood","Amount":"4000"}},
+            "elements": [
+                "openblocks:tank@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -16,
+            "nbt": {"id":"openblocks:tank","tank":{"FluidName":"star_blood","Amount":"4000"}},
+            "elements": [
+                "openblocks:tank@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -12,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_core@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_core@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_core@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -17,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -11,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -16,
+            "elements": [
+                "bloodmagic:blood_rune@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:escape_platform_unlocker@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -13,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "openblocks:elevator@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -10,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:basalt@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "openblocks:elevator@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:concrete@15"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -15,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -15,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_core@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -16,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -9,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:endgame_mm_cpu@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -12,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -12,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:endgame_mm_mechanical@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:endgame_mm_casing@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -13,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        }
+    ]}

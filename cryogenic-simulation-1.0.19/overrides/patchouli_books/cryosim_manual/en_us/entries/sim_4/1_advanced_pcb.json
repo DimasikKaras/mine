@@ -1,0 +1,49 @@
+{
+    "name": "1: Advanced Circuitry",
+    "icon": "pneumaticcraft:advanced_pcb",
+    "category": "sim_4",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Before you can produce the next evolution of machines, you need to craft $(item)Advanced PCBs$(). Which is a form of advanced computation circuit that is much better at calculations than your previous designs.$(br2)Craft $(item)Empty PCBs$() in the $(item)Pressure Chamber$() then prepare those for etching in a $(item)UV Light Box$(). We can trade you schematics for the light box through the $(item)Amadron Tablet$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_uv_lightbox",
+            "text": "The $(item)UV Light Box$() is powered by pressure and can be sped up by $(item)Speed Upgrades$().$(br2)The $(item)UV Light Box$() exposes the circuit to powerful UV Light, making the etch success chance go up."
+        },
+        {
+            "type": "fluid_to_item_transform",
+            "anchor": "grout",
+            "title": "Circuit Etching",
+            "input1": "pneumaticcraft:empty_pcb",
+            "output1": "pneumaticcraft:unassembled_pcb",
+            "fluid": "cryosim:textures/fluids/etching_acid_still.png",
+            "fluidTooltip": "Etching Acid",
+            "description1": "Drop the $(item)Empty PCBs$() in $(item)Etching Acid$() to finish the etching process.$(br2)This process may take a few minutes. We recommend doing a stack or so at a time, to alleviate this chore."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:pn_printed_circuit_board",
+            "text": "Once the etching process is complete, you can craft the $(item)Printed Circuit Board$() with $(item)Capacitors$() and $(item)Transistors$()$(br2)The final step is to create $(item)Advanced PCBs$() in the $(item)Industrial Assembler$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:assembly_controller",
+            "anchor": "assemblycontroller",
+            "text": "Once you have some circuit boards made, its probably a wise decision to invest in some upgraded tech that lets you create the $(item)Unassembled PCBs$() easier.$(br2)Enter, the $(item)Assembly Controller$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "pneumaticcraft:assembly_platform",
+            "recipe2": "pneumaticcraft:assembly_io_unit"
+        },
+        {
+            "type": "text",
+            "title": "Assembly Controller",
+            "text": "The Assembly Controller can take $(item)Empty PCBs$() straight from the $(item)Pressure Chamber$() and turn them into $(item)Unassembled PCBs$() without the PCBs ever being exposed in the $(item)UV Light Box$(), or being submerged in $(item)Etching Acid$().$(br2)It can also make the advanced components that can withstand 20 bars of pressure. More info can be found in the $(item)PNC:R Manual$() under $(item)Manufacturing/Assembly System$()."
+        }
+    ]
+}

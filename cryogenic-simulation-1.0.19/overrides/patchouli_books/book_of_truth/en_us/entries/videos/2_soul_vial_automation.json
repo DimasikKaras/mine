@@ -1,0 +1,12 @@
+{
+    "name": "Soul Vial Automation",
+    "icon": "enderio:block_soul_binder",
+    "category": "videos",
+    "sortnum": 2,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This video is about how you automate soul vials from a mob blueprint.$(br)(Mob Imprisonment Tool).$(br2)$(l:https://www.youtube.com/watch?v=hbrOboZl1dk)Video link$()"
+        }
+    ]
+}

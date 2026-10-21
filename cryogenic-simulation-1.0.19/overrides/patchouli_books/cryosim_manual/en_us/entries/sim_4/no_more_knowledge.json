@@ -1,0 +1,19 @@
+{
+    "name": "Cause for Celebration",
+    "icon": "patchouli:guide_book",
+    "category": "sim_4",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+    "sortnum": 0,
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "title": "Cause for Celebration",
+            "text": "Great news $(primary)XC-443$(), your prefrontal cortex is now huge! It used to be so tiny! We're a bit proud of you.$(br2)But now it's huge, as we said. Not huge by our standards, but huge in comparison to where you started.$(br2)Maybe 80-85% of where we want you to be at the end of the simulations..?"
+        },
+        {
+            "type": "text",
+            "text": "Anyways, to get to the point. We believe it's time to lift some of the restrictions we've placed upon you when reaching a new simulation.$(br2)Starting now, $(item)you will no longer have to acquire books of knowledge$() to advance to certain crafts.$(br2)$(italic)You are beyond books. Your prefrontal cortex absorbs new knowledge like a sponge.$()"
+        }
+    ]
+}

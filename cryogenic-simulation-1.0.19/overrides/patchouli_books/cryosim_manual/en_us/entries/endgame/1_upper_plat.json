@@ -1,0 +1,19 @@
+{
+    "name": "The Upper Platform",
+    "icon": "contenttweaker:endgame_platform_assembler",
+    "category": "endgame",
+    "advancement": "triumph:cryosim/endgame_platform/built_platform",
+    "sortnum": 1,
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "title": "The Upper Platform",
+            "text": "Lets adress the elephant in the room. Yes the signage on the upper platform states \"Progress Requires Sacrifice\"$(br2)And yes, the massive machine you will construct on the upper levels is called the $(item)Sacrificial Star Engine$().$(br2)I blame our R&D team for making it all sound unsavory."
+        },
+        {
+            "type": "text",
+            "text": "I am sure they just mean that the sacrifice that will be made is the blood, sweat and tears that is required to build it.$(br2)...Maybe even sacrifice another $(item)Nightstag$() or two$(br2)I am confident that it's not worse than that, so you should put those thoughts out of your mind and get to work!$(br2)After all, there is a ton of things to do before it will be operational."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Simulation Inhabitants",
+    "icon": "minecraft:skull:1",
+    "category": "sim_4",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement",
+    "priority": true,
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "We have filled the $(item)Combat Simulation$() with several monsters you've encountered in previous simulations.$(br2)So the following pages will only mention new monsters that you will need to learn to master how to fight."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:enderman",
+            "name": "Endermen",
+            "scale": 1,
+            "offset": 0.1,
+            "text": "Tall ethereal beings of the void. Putting $(l:sim_4/helpful_stuff)Enderference$() parts in your weapons will stop them from warping."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:witch",
+            "name": "Witches",
+            "scale": 0.9,
+            "offset": 0.1,
+            "text": "Masters of Alchemy, and they're no friend of yours. Found on the large spawning platforms in the $(item)Combat Simulation$()."
+        }
+    ]
+}

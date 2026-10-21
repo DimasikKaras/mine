@@ -1,0 +1,23 @@
+{
+    "name": "Important pack info",
+    "icon": "storagedrawers:tape:1",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "text",
+            "title": "Important pack info",
+            "text": "When entering a new simulation, a new category of the manual unlocks.$(br2)In rare cases these are not unlocked. If that happens you can run the command below to reload the book.$(br2)$(item)/cryosim-reload-patchouli-books$()"
+        },
+        {
+            "type": "text",
+            "text": "Additionally, it's a good idea to always waypoint the entrance portal in $(l:portal_hub/7_map)journeymap$() whenever you enter a new simulation.$(br2)If you can't find your first portal in the first simulation you can always just die. As mentioned in the $(l:portal_hub/6_death)Death$() chapter, you are returned to the portal hub area upon death.$(br2)Then from the portal hub just go through the first portal again."
+        },
+        {
+            "type": "text",
+            "title": "Base Building",
+            "text": "You may build your base in the portal hub dimension if you would like, but the area directly above the portal hub (the 15x15 platform) should be left clear. It will receive another floor later on in the pack.$(br2)$(bold)The new floor will replace blocks that have been placed above the platform.$(bold)"
+        }
+    ]
+}

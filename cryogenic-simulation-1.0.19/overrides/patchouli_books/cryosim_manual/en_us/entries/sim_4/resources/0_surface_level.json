@@ -1,0 +1,47 @@
+{
+    "name": "Surface Level Resources",
+    "icon": "midnight:midnight_grass",
+    "category": "sim_4/resources",
+    "advancement": "triumph:cryosim/sim_4/hidden_book_advancement_midnight",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "midnight:bogshroom",
+            "title": "Fungi",
+            "anchor": "fungi",
+            "text": "The surface is filled with different schools of $(item)Fungi$(), and they're all filled to the brim with magical energy.$(br2)The spores, cellular walls and root system all carries an enormous amount of magical energy.$(br2)All fungi components can be broken down in a $(item)Pulverizer$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:bogshroom_hat",
+            "title": "Fungi",
+            "text": "$(item)Mushroom Caps$() is the most sustainable of these, and can be grown in $(item)Phytogenic Insolators$() under the right conditions."
+        },
+                {
+            "type": "spotlight",
+            "item": "midnight:nightstone",
+            "title": "Nightstone",
+            "text": "$(item)The Midnight$() contain an abudance of $(item)Nightstone$().$(br2)Nightstone is used in some multiblocks, and can be purified into $(item)Living Rock$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:ghost_plant",
+            "anchor": "ghost_plant",
+            "title": "Plantlife",
+            "text": "Ghost plants can be found in most biomes, and can be transmuted into $(item)Mystical White Flowers$() with a $(item)Resonating Wand$().$(br2)Furthermore the petals of the magical flower can be broken down into $(item)Floral Fertilizer$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "midnight:archaic_shard",
+            "title": "Archaic Shards",
+            "text": "In most biomes you will find clusters of $(item)Trenchstone$(). Not all clusters will contain $(item)Archaic Shard$() ore, but most will."
+        },
+        {
+            "type": "spotlight",
+            "anchor": "miasma_crater",
+            "item": "midnight:miasma_surface",
+            "text": "This scorching hot magmatic rock can be found in $(item)Miasma Craters$(). Sadly we can't pinpoint it as its own biome, so your $(item)Natures Compass$() wont work.$(br2)However, these craters are huge. So you should be able to find them."
+        }
+    ]
+}

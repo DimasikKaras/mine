@@ -1,0 +1,126 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "cryosim:textures/images/pack_logo.png",
+            "posX" : 20,
+            "posY" : 40,
+            "width" : 129,
+            "height" : 35,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 32,
+            "posY" : 85,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "top_left",
+            "texture" : "cryosim:textures/images/button_texture2.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 32,
+            "posY" : 109,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "top_left",
+            "texture" : "cryosim:textures/images/button_texture2.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 32,
+            "posY" : 133,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "top_left",
+            "texture" : "cryosim:textures/images/button_texture2.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 32,
+            "posY" : 157,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "top_left",
+            "texture" : "cryosim:textures/images/button_texture2.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 32,
+            "posY" : 181,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "top_left",
+            "texture" : "cryosim:textures/images/button_texture2.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "modpack-label":
+        {
+            "text" : "A pack by IterationFunk",
+            "posX" : 8,
+            "posY" : -32,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 8,
+            "posY" : -16,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+
+    "other":
+    {
+        "background": {
+            "image": "cryosim:textures/images/cryo_no_logo_2.png"
+        }
+    
+    }
+}

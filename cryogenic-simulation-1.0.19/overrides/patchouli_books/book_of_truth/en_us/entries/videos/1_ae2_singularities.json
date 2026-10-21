@@ -1,0 +1,12 @@
+{
+    "name": "AE2 & Singularities",
+    "icon": "singularities:singularity:10",
+    "category": "videos",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "This video is about how to craft singularities with AE2.$(br2)$(l:https://www.youtube.com/watch?v=ObDEzz5uwW4)Video link$()"
+        }
+    ]
+}

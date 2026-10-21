@@ -1,0 +1,20 @@
+{
+    "name": "Book of Truth",
+    "icon": "patchouli:guide_book{\"patchouli:book\": \"patchouli:book_of_truth\"}",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 9,
+    "pages": [
+        {
+            "type": "crafting",
+            "title": "Book of Truth",
+            "recipe": "crafttweaker:book_of_truth_guidebook",
+            "text": "A separate book, containing $(item)videos$() about how to approach the modpacks hurdles/automation tasks.$(br2)It is kept in a separate book, since some players might prefer tackling challenges without help."
+        },
+        {
+            "type": "text",
+            "title": "Book of Truth",
+            "text": "Recommended to check out for newer players.$(br2)If you have a suggestion for a new video, use the $(br)$(item)book-of-truth-suggestion$() tag on the $(l:https://github.com/xt9/CryogenicSimulation-Tracker/issues)issue tracker$() to suggest a new video."
+        }
+    ]
+}

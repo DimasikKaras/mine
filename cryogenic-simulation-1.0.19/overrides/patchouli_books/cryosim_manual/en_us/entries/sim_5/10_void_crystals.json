@@ -1,0 +1,26 @@
+{
+    "name": "10: A very dense metal",
+    "icon": "contenttweaker:neutronium_ingot",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 12,
+    "pages": [
+        {
+            "type": "text",
+            "text": "After some thorough researching of the $(item)Starless Void Ore$() that your $(item)Venerated World Wyrm$() found. We've come to the conclusion that its suitable for making an incredibly dense metal called $(item)Neutronium$().$(br2)You will need a new a machine that is advanced enough to make it."
+        },
+        {
+            "type": "text",
+            "text": "Use $(l:portal_hub/4_schematica)Schematica$() to construct the $(item)Dense Neutronium Collider$().$(br2)It's mostly made out of $(item)Dark Steel Blocks$() and $(item)Refined Obsidian$().$(br2)The tank in the middle has to be filled with $(item)Nuclear Waste$().$(br2)The three primary components of neutronium is $(item)Void Crystals$(), $(item)Iron Singularities$() and $(item)Quadruple Compressed Cobblestone$()."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:void_crystal",
+            "text": "$(item)Void Crystals$() are made out of the $(item)Molten Void Metal$() you can procure from $(item)Starless Void Ore$().$(br2)You also need a lot of $(item)Lead Crystals$(). They are made from a chemical process where you dissolve $(item)Lead Ore$() into $(item)Sulfuric Acid$(). Then that slurry is cleaned and $(item)Crystallized$()."
+        },
+        {
+            "type": "text",
+            "text": "Making $(item)Lead Crystals$() is a fun chemical puzzle.$(br2)We wont spoil it entirely for you, but you'll need these machines:$(br)$(li)Electrolytic separators$()$(li)Chemical Infusers$()$(li)Chemical Oxidizer$()$(li)Rotary Condensentrator$()$(li)Chemical Dissolution Chamber$()$(li)Chemical Washers$()$(li)Chemical Crystallizers$()"
+        }
+    ]
+}

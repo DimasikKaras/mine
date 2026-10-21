@@ -1,0 +1,91 @@
+{
+  "contenttweaker:red_canyon_dust": [
+    {
+      "drop": "minecraft:quartz",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "thermalfoundation:material:772",
+      "chance": 0.50,
+      "meshLevel": 3
+    },
+    {
+      "drop": "thermalfoundation:material:771",
+      "chance": 0.30,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:blaze_powder",
+      "chance": 0.08,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:prismarine_shard",
+      "chance": 0.03,
+      "meshLevel": 3
+    }
+  ],
+  "contenttweaker:block_golden_dust": [
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:glowstone_dust",
+      "chance": 1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:dye:4",
+      "chance": 0.70,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:dye:4",
+      "chance": 0.70,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:diamond",
+      "chance": 0.12,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:emerald",
+      "chance": 0.08,
+      "meshLevel": 3
+    }
+  ]
+}

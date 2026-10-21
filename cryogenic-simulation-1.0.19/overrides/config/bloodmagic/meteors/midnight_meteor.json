@@ -1,0 +1,28 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "botania",
+      "path": "storage"
+    },
+    "meta": 3
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "oreIridium"
+    },
+    {
+      "weight": 100,
+      "oreName": "orePlatinum"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreUranium"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 6,
+  "maxWeight": 400,
+  "version": 3,
+  "cost": 1000000
+}

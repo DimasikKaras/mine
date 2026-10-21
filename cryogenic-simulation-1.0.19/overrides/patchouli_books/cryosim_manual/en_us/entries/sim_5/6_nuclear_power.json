@@ -1,0 +1,99 @@
+{
+    "name": "6: Splitting the Atom",
+    "icon": "immersiveengineering:metal:5",
+    "category": "sim_5",
+    "advancement": "triumph:cryosim/sim_5/hidden_book_advancement",
+    "sortnum": 8,
+    "pages": [
+        {
+            "type": "text",
+            "text": "You only have a little bit of $(item)Uranium$() from the meteor ritual you performed at the end of the $(item)Combat Simulation$().$(br2)Your current goal is to make it last as long as possible and make some $(item)Nuclear Waste$().$(br2)That will enable you to make the $(item)Venerated World Wyrm$() which can find more $(item)Uranium$() for you."
+        },
+        {
+            "type": "materials",
+            "title": "Nuclear Breeding",
+            "item1": "forge:bucketfilled{FluidName:molten_salt}",
+            "item2": "forge:bucketfilled{FluidName:uranium}",
+            "item3": "forge:bucketfilled{FluidName:molten_salt_plutonium}",
+            "notes": "Before you can make the most efficient $(item)Molten Salt Reactor$() that uses $(item)Molten Salt Plutonium Fuel$() with $(item)D-T Fuel$() (Deuterium & Tritium), you have to breed $(item)Plutonium$() in a breeder reactor.$(br2)You also need to increase your salt production, but that need is not immediate since you have some already."
+        },
+        {
+            "type": "materials",
+            "title": "MSR Reactor",
+            "item1": "modularmachinery:blockcontroller",
+            "item2": "enderio:block_alloy:6#8",
+            "item3": "xtones:tank#49",
+            "item4": "chisel:glass:5#36",
+            "item5": "xtones:tank:1#6",
+            "anchor": "msr",
+            "notes": "The $(item)Molten Salt Reactor$() is a state of the art power generation system that will cover all your power needs.$(br2)Since you need a breeder reactor and one producing reactor, you should build at least 2.$(br2)Pull up $(l:portal_hub/4_schematica)Schematica$() to see the bill of materials."
+        },
+        {
+            "type": "text",
+            "text": "Once you have one $(item)Molten Salt Reactor$() running, you should store up the $(item)Plutonium Fuel$() and save it for your producing reactor.$(br2)You can run a reactor with just plutonium and molten salt to generate a decent amount of energy. But that will not produce the exotic nuclear waste we need.$(br2)So keep it stocked for now.$(br2)Now lets talk D-T fuel!"
+        },
+        {
+            "type": "crafting",
+            "title": "Deuterium",
+            "recipe": "crafttweaker:mekanism_pump",
+            "recipe2": "mekanism:filterupgrade"
+        },
+        {
+            "type": "text",
+            "title": "Deuterium",
+            "text": "$(item)Deuterium$() is easy to produce. All you need is an $(item)Electrolytic Separator$() that splits $(item)Heavy Water$() into $(item)Deuterium$() and $(item)Oxygen$().$(br2)$(item)Heavy Water$() can be extracted from a body of water with a $(item)Pump$(). The $(item)Pump$() will require a $(item)Filter Upgrade$() to separate heavy water from regular water."
+        },
+        {
+            "type": "crafting",
+            "title": "Brine, a true hero",
+            "recipe": "crafttweaker:mekanism_evap_controller",
+            "recipe2": "crafttweaker:mekanism_thermal_evaporation_block"
+        },
+        {
+            "type": "text",
+            "title": "Brine",
+            "text": "Before we can talk about procuring $(item)Tritium$() we have to talk about $(item)Brine$(). $(item)Brine$() is a source of both $(item)Lithium$() and $(item)Salt$().$(br2)If you turn $(item)Brine$() gaseous you can crystallize it into salt, which is what we will do to keep up with our molten salt needs for our $(item)Molten Salt Reactors$().$(br2)$(item)Brine$() is produced in a $(item)Thermal Evaporation Plant$()."
+        },
+        {
+            "type": "crafting",
+            "title": "Brine production",
+            "recipe": "mekanism:basicblock_15",
+            "recipe2": "mekanism:machineblock3_4"
+        },
+        {
+            "type": "text",
+            "title": "Brine production",
+            "text": "There is a small $(item)Thermal Evaporation Plant$() setup you can refer to in $(l:portal_hub/4_schematica)Schematica$() (listed under Mekanism).$(br2)To produce brine you need to pump a metric shit-ton of $(item)Water$() into the plant.$(br2)You will also need to connect a $(item)Resistive Heater$() to one of the valves to sufficiently heat the evaporation plant. For a 12-height plant, the heater will need about 1k RF/t"
+        },
+        {
+            "type": "text",
+            "title": "Lithium production",
+            "text": "To produce $(item)Lithium$(), you must build another $(item)Thermal Evaporation Plant$() that turn $(item)Brine$() into the lithium liquid.$(br2)It can be as small as 3 in height without issue, and you can get away with just giving it 512 RF/t worth of heat with a $(item)Resistive Heater$().$(br2)At this juncture you should probably store the excess brine in a $(item)Black Hole Tank$()."
+        },
+        {
+            "type": "text",
+            "title": "Lithium production",
+            "text": "You may need 2 brine plants to produce $(item)Excess Brine$().$(br2)Siphon some of the excess brine into a $(item)Rotary Condensentrator$() to turn it gaseous. Then pipe the gas to a $(item)Chemical Crystallizer$() that turn in it into salt.$(br2)You probably also want to have a crafter nearby that can directly package the salt into $(item)Salt Blocks$()."
+        },
+        {
+            "type": "crafting",
+            "title": "Tritium Production",
+            "recipe": "crafttweaker:mekanism_solar_activator",
+            "recipe2": "mekanism:machineblock2_2"
+        },
+        {
+            "type": "text",
+            "title": "Tritium production",
+            "text": "To make the $(item)Tritium$(), first turn the $(item)Liquid Lithium$() gaseous in a $(item)Rotary Condensentrator$().$(br2)Once the lithium is gaseous, pipe it into a $(item)Solar Neutron Activator$(). This will produce $(item)Tritium$() in its gaseous form."
+        },
+        {
+            "type": "text",
+            "title": "D-T Fuel Production",
+            "text": "To make the D-T fuel, you have to join the $(item)Deuterium$() and the $(item)Tritium$(). This is done in a $(item)Chemical Infuser$() (recipe on the previous page).$(br2)Once it is fused the $(item)D-T Fuel$() is pretty much done!$(br2)Before you send it off to the reactor, run it through a $(item)Rotary Condensentrator$() again to turn it into a liquid."
+        },
+        {
+            "type": "text",
+            "text": "I am sure you must be winded from reading all that. But it is not really rocket science is it?$(br2)Oh wait, I suppose it kind of is.$(br2)Have fun playing with science!"
+        }
+    ]
+}

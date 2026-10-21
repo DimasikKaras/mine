@@ -1,0 +1,44 @@
+{
+    "block_pools": [
+        {
+            "name": "MagicalFlower",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:mineral_soil",
+                "meta": 0
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:dye",
+                    "meta": 15
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "consume_block",
+                    "name": "contenttweaker:block_calcium",
+                    "chance": 33.0
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "endRod",
+                    "amount": 12,
+                    "speed": 0.15,
+                    "yOffset": 4,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "You must hold a piece of Bone Meal!"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Engineering Knowledge",
+    "icon": "gamestagebooks:ie_stage",
+    "category": "sim_1/knowledge",
+    "advancement": "triumph:cryosim/sim_1/hidden_book_advancement",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "gamestagebooks:ie_stage",
+            "text": "Found in $(item)Mesa$() biomes inside of the first simulation.$(br2)Your $(item)Nature's Compass$() will guide the way.$(br2)You should probably divine for both the $(item)Mesa$() and $(item)Mesa Plateau$() biomes to see which one is closer."
+        },
+        {
+            "type": "spotlight",
+            "item": "immersiveengineering:tool",
+            "link_recipe": true,
+            "text": "This knowledge is required before you can make a $(l:sim_1/3_creosote#engineers-hammer)Engineers Hammer$()."
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Mastery Tokens",
+    "icon": "contenttweaker:mastery_token_final",
+    "category": "endgame",
+    "advancement": "triumph:cryosim/endgame_platform/built_platform",
+    "sortnum": 3,
+    "priority": true,
+    "pages": [
+        {
+            "type": "crafting",
+            "title": "Mastery Tokens",
+            "recipe": "crafttweaker:ct_mastery_token",
+            "text": "$(item)Mastery Tokens$() are a necessary evil in making both the $(item)Sacrificial Star Engine$(), and a few other things in the endgame.$(br2)You will need to craft 88 $(item)Finalized Mastery Tokens$()."
+        },
+        {
+            "type": "text",
+            "title": "Mastery Tokens",
+            "text": "Each token poses its own automation challenges.$(br2)If you have been diligent in your automation efforts so far, the tokens of the earlier simulations should be a lot easier to complete.$(br2)We recommend setting up a dedicated $(item)Industrial Assembler$() for each token type.$(br2)The next chapter will give endgame automation advice."
+        }
+    ]
+}

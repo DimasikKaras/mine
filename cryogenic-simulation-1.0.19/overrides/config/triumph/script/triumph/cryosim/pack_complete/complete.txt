@@ -1,0 +1,19 @@
+addParent("triumph:cryosim/endgame_platform/built_platform")
+
+setIcon(<minecraft:grass>)
+setTitle("Cryogenic Simulation")
+setDescription("XC-443 escaped the simulation. The Cryogenic Simulation has been completed")
+setAnnounceToChat(true)
+setShowToast(true)
+
+criteria = addCriteria("entered_dim", "minecraft:location")
+criteria.setDimID(94)
+
+setCompletedIconColor(#32d9e5)
+setCompletedTitleColor(#32d9e5)
+
+addRewardFunction("triumph:cryosim/pack_complete/complete_reward")
+
+hiddenUnless("triumph:cryosim/pack_complete/complete")
+
+setPos(285,27)

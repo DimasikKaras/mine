@@ -1,0 +1,55 @@
+{
+    "block_pools": [
+        {
+            "name": "PlatformExtend",
+            "type": {
+                "type": "block",
+                "name": "contenttweaker:endgame_platform_unlocker",
+                "meta": 0
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:endgame_platform_assembler"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "use_command",
+                    "name": "pillar-spawn",
+                    "arguments": "endgame_platform_top ~-6 ~1 ~-1 180"
+                },
+                {
+                    "type": "use_command",
+                    "name": "give",
+                    "arguments": "@p contenttweaker:assembly_dust 4 0"
+                },
+                {
+                    "type": "use_command",
+                    "name": "playsound",
+                    "arguments": "block.anvil.use master @p ~ ~1 ~ 0.6"
+                },
+                {
+                    "type": "use_command",
+                    "name": "playsound",
+                    "arguments": "block.end_portal.spawn master @p ~ ~1 ~ 0.4"
+                },
+                {
+                    "type": "use_command",
+                    "name": "tellraw",
+                    "arguments": "@p [\"\",{\"text\":\"Very well done \"},{\"text\":\"XC-443\",\"color\":\"aqua\"},{\"text\":\"!\nEveryone at the command center is \"},{\"text\":\"very \",\"italic\":true},{\"text\":\"proud of you.\n\n\"},{\"text\":\"Now the real work begins!\",\"italic\":true,\"color\":\"light_purple\"},{\"text\":\"\nJust put those grubby little caveman hands to use for a few more days.\nThen we will let you have your freedom.\"}]"
+                }
+            ],
+            "drops": [],
+            "messages": [
+                {
+                    "id": "require_item",
+                    "message": "NAU-01 Nanobot Kit must be held!"
+                }
+            ]
+        }
+    ]
+}

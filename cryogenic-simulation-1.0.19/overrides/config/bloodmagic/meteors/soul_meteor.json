@@ -1,0 +1,20 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "contenttweaker",
+      "path": "celestial_soul_tether"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "crystallizedSoul"
+    }
+  ],
+  "explosionStrength": 8.0,
+  "radius": 3,
+  "maxWeight": 100,
+  "version": 3,
+  "cost": 1000000
+}

@@ -1,0 +1,184 @@
+{
+  dimensions: [ 88 ]
+  replaceableBlocks: [ "stone", "dirt" ]
+  replaceDecorators: true
+  caveBlocks: [
+    {
+      states: [ "lava" ]
+      height: [ 0, 10 ]
+    }
+  ]
+  rooms: {
+    # The radius in blocks.
+    scale: 6
+    # Vertical height multiple of scale.
+    stretch: 0.5
+  }
+  tunnels: {
+    # The length in blocks of this tunnel. A value of 0 
+    # produces between 132-176.
+    distance: 0
+    # The 1 / X chance chance that multiple tunnels will
+    # be spawned at each origin, instead of just one.
+    systemChance: 0.25
+    # Whether to reduce the amount of aberrations in
+    # in this cave's vertical angle. When this feature
+    # is enabled, the amount that noiseY can change is
+    # overall reduced, per segment.
+    noiseYReduction: true
+    # Whether branches should decrease in size from their
+    # original tunnel's scale. You will most likely want
+    # to disable this feature when using larger tunnels.
+    resizeBranches: true
+    # These values alter the radius in blocks of each
+    # tunnel.
+    scale: {
+      startVal: 0
+      # startVal = startVal + (randomValue * x).
+      startValRandFactor: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    originHeight: [ 8, 128 ]
+    # The 1 / X chance that any origin will be skipped.
+    # This has an effect of spawning each system in
+    # isolated groups vs. everywhere.
+    chance: 0.142
+    # The average number of tunnel systems to try and
+    # spawn per chunk.
+    count: 20
+    # The horizontal angle in radians.
+    yaw: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+    # The vertical angle in radians.
+    pitch: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+    # These values alter how much the horizontal angle
+    # of each tunnel can change between segments.
+    dYaw: {
+      # angle first gets changed by x.
+      startVal: 0
+      # angle = angle * x
+      factor: 0.75
+      # angle = angle + (randomValue * x)
+      randFactor: 4
+      # angle = angle^x
+      exponent: 1
+    }
+    # These values alter how much the vertical angle
+    # of each tunnel can change between segments.
+    dPitch: {
+      startVal: 0
+      factor: 0.9
+      randFactor: 2
+      exponent: 1
+    }
+    # scaleY is a multiple of scale on the vertical axis.
+    # If scale == 6 and scaleY == 0.5, the height becomes 3.
+    # These values alter scaleY between tunnel segments.
+    stretch: {
+      startVal: 1
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+  }
+  # Ravines are like tunnels, but with random variations in
+  # horizontal scale. You could theoretically use this as
+  # your main tunnels, if you're using multiple presets.
+  ravines: {
+    chance: 0.02
+    distance: 0
+    scale: {
+      startVal: 0
+      startValRandFactor: 2
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    # Similar to noiseYReduction, but not as random.
+    noiseYFactor: 0.7
+    originHeight: [ 20, 40 ]
+    yaw: {
+      startVal: 0
+      startValRandFactor: 1
+    }
+    pitch: {
+      startVal: 0
+      startValRandFactor: 0.25
+    }
+    dYaw: {
+      startVal: 0
+      factor: 0.5
+      randFactor: 4
+      exponent: 1
+    }
+    dPitch: {
+      startVal: 0
+      factor: 0.8
+      randFactor: 2
+      exponent: 1
+    }
+    stretch: {
+      # This is essentially the second most important
+      # variable accounting for the look of ravines.
+      startVal: 3
+      factor: 1
+      randFactor: 0
+      exponent: 1
+    }
+    # Contains an optional noise2D block used to change
+    # the look of ravine walls. Placing / uncommenting
+    # this block will completely override the vanilla
+    # ravine wall generation features, producing
+    # smoother, more organic surfaces.
+    walls: {
+      /*
+      noise2D: {
+           # Scale is ignored in this context.
+          scale: 0.5
+          frequency: 0.1
+          minVal: 0
+          maxVal: 4
+      }
+      */
+    }
+  }
+  # See caverns.json for another example of caverns. These
+  # are the default values.
+  caverns: {
+    enabled: false # Removed in 1.0. You can delete this field.
+    ceiling: {
+      # No effect in this context.
+      scale: 0.5 # Removed in 1.0. You can delete this field.
+      frequency: 0.02
+      range: [ -17, -3 ]
+    }
+    floor: {
+      # No effect in this context.
+      scale: 0.5 # Removed in 1.0. You can delete this field.
+      frequency: 0.02
+      range: [ 0, 8 ]
+    }
+    height: [ 10, 50 ]
+    # Optional 3D noise block for the main cavern shapes.
+    generators: {
+      # This does refer to noise frequency, but its use in
+      # the case of caverns has the opposite effect. Higher
+      # values mean less frequent pockets of air.
+      frequency: 0.0143
+      # The number of passes. Increases resolution at the
+      # cost of performance.
+      octaves: 1
+      type: SimplexFractal
+      fractal: FBM
+      threshold: -0.6
+      stretch: 0.5
+    }
+  }
+}

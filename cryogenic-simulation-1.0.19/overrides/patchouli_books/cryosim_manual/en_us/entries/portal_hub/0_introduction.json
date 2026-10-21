@@ -1,0 +1,26 @@
+{
+    "name": "Introduction",
+    "icon": "inspirations:books:7",
+    "category": "portal_hub",
+    "advancement": "triumph:cryosim/root",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "We're in luck, You're the only $(item)Ancient Human$() that we have found so far that was properly preserved by ice.$(br)Our previous $(item)442$() test subjects were not in such a pristine condition and died shortly after being found.$(br2)We can't wake you up yet though, it's far too dangerous exposing your feeble mind to the technological advances of our time."
+        },
+        {
+            "type": "text",
+            "text": "So for now we're going to run you through a couple of tests, but don't worry, we estimate that it will only take a year or so to train your mind.$(br2)My name is $(item)Atlas$() and I'll be your guide here.$(br2)The system indicates you're suffering from a temporary amnesia, all you need to know is that your name is $(primary)$(bold)REDACTED$() and you come from a small village in $(primary)$(bold)REDACTED$()."
+        },
+        {
+            "type": "text",
+            "text": "You can navigate between pages by $(item)Scrolling$() with your mouse, and exit out of entries by clicking the $(item)Right mouse button$(). Right clicking is also the back button, when jumping between pages through links.$(br2)Also some blocks in the world that has a page in the manual can be $(item)SHIFT-Right$() clicked and that will take you to the corresponding page.$(br2)Give it a go!"
+        },
+        {
+            "type": "text",
+            "title": "JEI Integration",
+            "text": "You can press $(item)$(k:jei.bookmark)$() while hovering an item in the book to bookmark it in $(item)JEI$().$(br2)You can also use the $(item)$(k:jei.showRecipe)$() and $(item)$(k:jei.showUses)$() keys when hovering over an item to show recipes/uses in $(item)JEI$().$(br2)These keybinds are a great help when planning ahead while reading the book."
+        }
+    ]
+}
